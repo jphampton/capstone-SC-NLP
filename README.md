@@ -23,7 +23,7 @@ I included volumes 479 to present, which covers roughly 30 years and ~2400 opini
 ## Author prediction
 
 ### Analysis
-I intentionally structured this analysis after Rosenthal’s approach (in [1]).  Whereas Rosenthal used a narrow feature set of 63 specific features (function words, so-called as their frequency is hypothesized to be topic-invariant for a given author), I use 500 tf-idf features taken from a search over 1-grams, 2-grams, and 3-grams.  
+I intentionally structured this analysis after Rosenthal’s approach (in [1]).  Whereas Rosenthal used a narrow feature set of 63 specific features (function words, so-called as their frequency is hypothesized to be topic-invariant for a given author), I use 500 tf-idf features taken from a search over 1-grams, 2-grams, and 3-grams.  Initially I selected a wider feature set, 2200 or so features, but I worried that on a data set this small (number of opinions tops out at around 200 or so) such a large feature set would be extremely overfit. I also initially included ngram ranges, but this led to a lot of “double dipping”--important features would include “second”, “amendment”, “second amendment”, “the second amendment”, and so forth.  To cut back on this, I decided to search over single ngram values.  Terms with high document-frequency were occasionally helpful, so I widened the parameter space for max_df--and, for similar reasons, stop_words.  Stop words can be especially important at the phrase level.
 
 An important note is that authorship predictions are done on a reduced dataset containing only the opinions of the two justices being compared.  This simplifies the classification task at the cost of lacking generalizability.  It would be nice, for instance, to know the features of Justice Ginsburg that are sufficient to distinguish her writing from any other judge.
 
@@ -42,9 +42,9 @@ It would be interesting to compare the performance of other models (logistic, su
 ## Multiple Authorship
 
 ### Analysis
-Following Rosenthal’s approach (and in the tradition of the Federalist Papers function word analysis), I compute a 𝜒2 statistic based on bootstrapped function word counts in order to find a 95% confidence interval for a difference in function word frequency between two judges.  
+Following Rosenthal’s approach (and in the tradition of the Federalist Papers function word analysis), I compute a 𝜒2 statistic based on bootstrapped function word counts in order to find a 95% confidence interval for a difference in function word frequency between two judges.  This involved randomly selecting 100 opinions at random (with replacement) from a judge’s corpus, computing and storing the statistic for the batch, then repeating 1000 times, resulting in a variance list containing 1000 variance scores.  Pairwise comparison was accomplished by approximating the distribution of the differences in variance by considering every possible pairing of variance scores (a list of 1,000 x 1,000 = 1,000,000 pairs), computing and storing their differences, and forming a 95% confidence interval by finding the 0.025 percentile and the 0.975 percentile. (For more detail, see Rosenthal’s paper.)
 
-The statistic computes the variance of the expected word counts given the independence assumptions.  For more information, see Rosenthal’s paper.
+The statistic computes the variance of the expected word counts given the independence assumptions.  The general idea is that higher variance means more collaboration; the more authors who collaborate on a given text, the noisier the function word frequencies.
 
 
 ### Results
@@ -70,12 +70,14 @@ As a quick overview, doc2vec is an augmented version of word2vec.  The word2vec 
 The doc2vec algorithm does one better by including a document feature, included in every epoch with the word/context features found in that document.
 
 
+In published work using doc2vec, frequently only 10-20 epochs were needed.  I saw no great gain by increasing the epochs to 30.  It was widely recommended to reduce the learning speed in each epoch, and to train epochs individually.  My implementation follows this recommendations.
+
 ### Results
 
-The top three most similar cases for Lawrence v. Texas, D.C. v. Heller, and Citizens United all bore striking similarities to these famous cases.
+Since this was an unsupervised task, there wasn’t a great explicit loss function to compute.  I decided to validate the results by looking at the similar cases of three famous Supreme Court cases.  The top three most similar cases for Lawrence v. Texas, D.C. v. Heller, and Citizens United all bore striking similarities to the original, both narrowly by topic and more generally by legal issue.
 
 ### Takeaways
-Document similarities seem to work well, which suggests the document vectors are capturing topical or semantic features of the opinions.
+Document similarities seem to work well at capturing both factual and legal topics.
 
 ### Looking Ahead
 I’d like to do more with the opinion vectors in order to get a more concrete measure of their performance.  Possible applications include authorship attribution or topic modeling / labeling.
