@@ -1,0 +1,22 @@
+:
+
+set -e
+
+if test $# -ne 4
+then
+  echo " "
+  echo "Error: number of args is $#, but should be 4."
+  echo " "
+  exit 1
+fi
+
+./textvarvols $1 $2
+
+mv -f bvals bvals-$1-$2
+
+./textvarvols $3 $4
+
+mv -f bvals bvals-$3-$4
+
+./bvalcomp bvals-$1-$2 bvals-$3-$4
+

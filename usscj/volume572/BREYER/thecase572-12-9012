@@ -1,0 +1,69 @@
+        Justice Breyer delivered the opinion of the Court.
+
+        The Mandatory Victims Restitution Act of 1996 requires certain offenders to restore property lost by their victims as a result of the crime. 18 U. S. C. §3663A. A provision in the statue says that, when return of the property lost by the victim is "impossible, impracticable, or inadequate," the offender must pay the victim "an amount equal to . . . the value of the property" less "the value (as of the date the property is returned) of any part of the property that is returned." §3663A(b)(1)(B). The question before us is whether "any part of the property" is "returned" when a victim takes title to collateral securing a loan that an offender fraudulently obtained from the victim.
+
+        We hold that it is not. In our view, the statutory phrase "any part of the property" refers only to the specific property lost by a victim, which, in the case of a fraudulently obtained loan, is the money lent. Therefore, no "part of the property" is "returned" to the victim until the collateral is sold and the victim receives money from the sale. The import of our holding is that a sentencing court must reduce the restitution amount by the amount of money the victim received in selling the collateral, not the value of the collateral when the victim received it.
+
+
+        The relevant facts, as simplified, are the following: In 2005 petitioner Benjamin Robers, acting as a straw buyer, submitted fraudulent loan applications to two banks. The banks lent Robers about $470,000 for the purchase of two houses, upon which the banks took mortgages. When Robers failed to make loan payments, the banks foreclosed on the mortgages. In 2006 they took title to the two houses. In 2007 they sold one house for about $120,000. Andin 2008 they sold the other house for about $160,000. The sales took place in a falling real estate market.
+
+        In 2010 Robers was convicted in federal court of conspiracy to commit wire fraud. See §§371, 1343. He was sentenced to three years of probation. And the court ordered him to pay restitution of about $220,000, roughly the $470,000 the banks lent to Robers less the $280,000 the banks received from the sale of the two houses (minus certain expenses incurred in selling them).
+
+        On appeal Robers argued that the sentencing court had miscalculated his restitution obligation. In his view, "part of the property" was "returned" to the banks when they took title to the houses. And, since the statute says that "returned" property shall be valued "as of the date the property is returned," the sentencing court should have reduced the restitution amount by more than $280,000: $280,000 was what the banks received from the sale of the houses, but since the banks sold the houses in a falling real estate market, the houses had been worth more when the banks took title to them.
+
+        The Court of Appeals rejected Robers' argument. 698 F. 3d 937 (CA7 2012). And, because different Circuits have come to different conclusions about this kind of matter, we granted Robers' petition for certiorari. Compare id., at 942 (case below) (restitution obligation reduced by money received from sale of collateral), with United States v. Yeung, 672 F. 3d 594, 604 (CA9 2012) (restitution obligation reduced by value of collateral at time lender took title).
+
+
+        In our view, the phrase "any part of the property . . . returned" refers to the property the banks lost, namely, the money they lent to Robers, and not to the collateral the banks received, namely, the two houses. For one thing, that is what the statute says. The phrase is part of a long sentence that reads as follows:
+
+        "(b) The order of restitution shall require that [the] defendant--
+
+        "(1) in the case of an offense resulting in damage to or loss or destruction of property of a victim of theoffense--
+
+        "(A) return the property to the owner of the property . . . ; or
+
+        "(B) if return of the property under subparagraph (A) is impossible, impracticable, or inadequate, pay an amount equal to--
+
+        "(i) the greater of--
+
+        "(I) the value of the property on the date of the damage, loss, or destruction; or
+
+        "(II) the value of the property on the date of sentencing, less
+
+        "(ii) the value (as of the date the property is returned) of any part of the property that is returned . . . ." §3663A (emphasis added).
+
+   The words "the property" appear seven times in this sentence. If read naturally, they refer to the "property" that was "damage[d]," "los[t]," or "destr[oyed]" as a result of the crime. §3663A(b)(1). "Generally, `identical words used in different parts of the same statute are . . . presumed to have the same meaning.' " Merrill Lynch, Pierce, Fenner & Smith Inc. v. Dabit, 547 U. S. 71, 86 (2006) (quoting IBP, Inc. v. Alvarez, 546 U. S. 21, 34 (2005) ). And, if the "property" that was "damage[d]," "los[t]," or "destr[oyed]" was the money, then "the property . . . returned" must also be the money. Money being fungible, however, see, e.g., Ransom v. FIA Card Services, N. A., 562 U. S. ___, ___ (2011) (slip op., at 17); Sabri v. United States, 541 U. S. 600, 606 (2004) , "the property . . . returned" need not be the very same bills or checks.
+
+        We concede that substituting an amount of money, say, $1,000, for the words "the property" will sometimes seem awkward or unnecessary as, for example:
+
+   "[I]f return of [$1,000] . . . is impossible, . . . pay an amount equal to . . . the greater of . . . the value of [$1,000] on the date of the . . . loss . . . or . . . the value of [$1,000] on the date of sentencing . . . ." §3663A(b)(1)(B).
+
+   But any such awkwardness or redundancy is the linguistic price paid for having a single statutory provision that covers property of many different kinds. The provision is not awkward as applied to, say, a swindler who obtains jewelry, is unable to return all of the jewelry, and must then instead pay an amount equal to the value of all of the jewelry obtained less the value (as of the date of the return) of any of the jewelry that he did return. It directs the court to value the returned jewelry as of the date it was returned and subtract that amount from the value of all of the jewelry the swindler obtained. As applied to money, the provision is in part unnecessary but reading the statute similarly does no harm. And the law does not require legislators to write extra language specifically exempting, phrase by phrase, applications in respect to which a portion of a phrase is not needed.
+
+        The natural reading also facilitates the statute's administration. Many victims who lose money but subsequently receive other property (e.g., collateral securing a loan) will sell that other property and receive money from the sale. And often that sale will take place fairly soon after the victim receives the property. Valuing the money from the sale is easy. But valuing other property as of the time it was received may provoke argument, requiring time, expense, and expert testimony to resolve.
+
+        We are not convinced by Robers' arguments to the contrary. First, Robers says that, when a victim has not sold the collateral by the time of sentencing, our interpretation will lead to unfair results. A sentencing court will have only two choices, both undesirable. The court will either have to refuse to award restitution, thereby undercompensating the victim, or have to require the offender to pay the full amount lent to him, thereby giving the victim a windfall.
+
+        In our view, however, the dilemma is a false one. Other provisions of the statute allow the court to avoid an undercompensation or a windfall. Where, for example, a sale of the collateral is foreseen but has not yet taken place, the court may postpone determination of the restitution amount for two to three months after sentencing, thereby providing the victim with additional time to sell. See §3664(d)(5). Where a victim receives, say, collateral, but does not intend to sell it, other provisions of the statute may come into play. Section 3664(f)(2) provides that upon
+
+   "determination of the amount of restitution owed to each victim, the court shall . . . specify in the restitution order the manner in which, and the schedule according to which, the restitution is to be paid."
+
+   Section 3664(f)(3)(A) says that a
+
+   "restitution order may direct the defendant to make a single, lump-sum payment, partial payments at spec-ified intervals, in-kind payments, or a combinationof payments at specified intervals and in-kindpayments."
+
+   And §3664(f)(4) defines "in-kind payment" as including "replacement of property." These provisions would seem to give a court adequate authority to count, as part of the restitution paid, the value of collateral previously received but not sold. Regardless, Robers has not pointed us to any case suggesting an unfairness problem. And the Government has conceded that the statute (whether through these or other provisions) provides room for "credit[s]" against an offender's restitution obligation "to prevent double recovery to the victim." Brief for United States 30 (emphasis deleted).
+
+        Robers also points out, correctly, that the statute has a proximate cause requirement. See §3663A(a)(2) (defining "victim" as "a person directly and proximately harmed as a result of the commission of" the offense (emphasis added)); §3664(e) (Government bears the "burden of demon-strating the amount of the loss sustained by a victim as a result of the offense" (emphasis added)). Cf. Paroline v. United States, ante, at 6-11. And Robers argues that where, as here, a victim receives less money from a later sale than the collateral was worth when received, the market and not the offender is the proximate cause of the deficiency.
+
+        We are not convinced. The basic question that a proximate cause requirement presents is "whether the harm alleged has a sufficiently close connection to the conduct" at issue. Lexmark Int'l, Inc. v. Static Control Components, Inc., ante, at 14. Here, it does. Fluctuations in property values are common. Their existence (though not direction or amount) is foreseeable. And losses in part incurred through a decline in the value of collateral sold are di-rectly related to an offender's having obtained collateralized property through fraud. That is not to say that an offender is responsible for everything that reduces the amount of money a victim receives for collateral. Market fluctuations are normally unlike, say, an unexpected natural disaster that destroys collateral or a victim's donation of collateral or its sale to a friend for a nominal sum--any of which, as the Government concedes, could break the causal chain. See Tr. of Oral Arg. 25-27, 38-39, 46, 50-51.
+
+        Further, Robers argues that "principles" of state mortgage law "confirm that the return of mortgage collateral compensates a lender for its losses." Brief for Petitioner 30. But whether the collateral compensates a victim for its losses is not the question before us. That question is whether the particular statutory provision at issue here requires that collateral received be valued at the time the victim received it. That statutory provision does not purport to track the details of state mortgage law. Thus, even were we to assume that Robers is right about the details of state mortgage law, we would not find them sufficient to change our interpretation.
+
+        Finally, Robers invokes the rule of lenity. To apply this rule, we would have to assume that we could interpret the statutory provision to help an offender like Robers, who is hurt when the market for collateral declines, without harming other offenders, who would be helped when the market for collateral rises. We cannot find such an interpretation. Regardless, the rule of lenity applies only if, after using the usual tools of statutory construction, we are left with a "grievous ambiguity or uncertainty in the statute." Muscarello v. United States, 524 U. S. 125, 139 (1998) (internal quotation marks omitted). Having come to the end of our analysis, we are left with no such ambiguity or uncertainty here. The statutory provision refers to the money lost, not to the collateral received.
+
+   *  *  *
+
+        For these reasons, the judgment of the Court of Appeals is affirmed.
+
+   It is so ordered.

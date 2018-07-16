@@ -1,0 +1,125 @@
+#!/bin/sh
+
+# This script will download and compile various computer programs used
+# during the writing of the research paper "Detecting Multiple Authorship
+# of United States Supreme Court Legal Decisions Using Function Words",
+# by J.S. Rosenthal and A. Yoon (2009), to appear in Annals of Statistics,
+# available at:
+# 
+#	http://probability.ca/jeff/research.html
+# 
+# The software automatically downloads and sorts plain-text versions
+# of United States Supreme Court decisions, using the Justia source
+# provided at supreme.justia.com.
+# 
+# It then performs various statistical analyses on the text of these
+# decisions, including the frequency of various "function words" and more.
+# 
+# The programs are designed for use only on linux/unix/Mac machines.
+# 
+# All programs downloaded here are Copyright (c) 2010 by Jeffrey
+# S. Rosenthal, and are licensed for general copying, distribution
+# and modification according to the GNU General Public License
+# (http://www.gnu.org/copyleft/gpl.html).
+# 
+# You may contact me with questions.
+# 
+#  -- Jeffrey Rosenthal, jeff@math.toronto.edu, http://probability.ca/jeff/
+
+set -e
+
+# Check that you have "lynx" and "cc" installed.
+
+if lynx -dump /dev/null >/dev/null 2>/dev/null
+then
+  echo "Found command 'lynx' ..."
+else
+  echo ""
+  echo "Oops, you do not have the web browser 'lynx' installed."
+  echo "Please install it and then re-run this INSTALL script."
+  echo ""
+  exit 1
+fi
+
+if cc -E /dev/null 2>/dev/null
+then
+  echo "Found command 'cc' ..."
+else
+  echo ""
+  echo "Oops, you do not have the C compiler 'cc' installed."
+  echo "Please install it and then re-run this INSTALL script."
+  echo ""
+  exit 1
+fi
+
+# Download to the current directory all the main files:
+
+	echo "Downloading the main files ..."
+	lynx -source http://probability.ca/usscj/README > README
+	lynx -source http://probability.ca/usscj/grabvol > grabvol
+	lynx -source http://probability.ca/usscj/grabcase > grabcase
+	lynx -source http://probability.ca/usscj/sortvol > sortvol
+	lynx -source http://probability.ca/usscj/textvarit > textvarit
+	lynx -source http://probability.ca/usscj/comptwo > comptwo
+	lynx -source http://probability.ca/usscj/grabsequence > grabsequence
+	lynx -source http://probability.ca/usscj/grabfromlist.c > grabfromlist.c
+	lynx -source http://probability.ca/usscj/sortbyauthor.c > sortbyauthor.c
+	lynx -source http://probability.ca/usscj/textvar.c > textvar.c
+	lynx -source http://probability.ca/usscj/bvalcomp.c > bvalcomp.c
+
+# Make the corresponding shell-script files executable:
+
+	chmod +x grabvol grabcase sortvol textvarit comptwo grabsequence
+
+# Compile all the corresponding C programs:
+
+	echo "Compiling the main C programs ..."
+	cc grabfromlist.c -o grabfromlist -lm
+	cc sortbyauthor.c -o sortbyauthor -lm
+	cc textvar.c -o textvar -lm
+	cc bvalcomp.c -o bvalcomp -lm
+
+# Download and compile programs for volume-specific analysis and logs:
+
+	echo "Downloading and compiling volume-specific and log programs ..."
+	lynx -source http://probability.ca/usscj/textvarvols.c > textvarvols.c
+	lynx -source http://probability.ca/usscj/comptwovols > comptwovols
+	lynx -source http://probability.ca/usscj/createvollist > createvollist
+	lynx -source http://probability.ca/usscj/textvarlog.c > textvarlog.c
+        lynx -source http://probability.ca/usscj/voldata > voldata
+	lynx -source http://probability.ca/usscj/justrange.c > justrange.c
+	lynx -source http://probability.ca/usscj/justrangelog.c > justrangelog.c
+	lynx -source http://probability.ca/usscj/decaderun.c > decaderun.c
+	lynx -source http://probability.ca/usscj/volrun.c > volrun.c
+	lynx -source http://probability.ca/usscj/yearlyrun.c > yearlyrun.c
+	lynx -source http://probability.ca/usscj/sessionlyrun.c > sessionlyrun.c
+	cc textvarvols.c -o textvarvols -lm
+	cc textvarlog.c -o textvarlog -lm
+	cc justrange.c -o justrange -lm
+	cc justrangelog.c -o justrangelog -lm
+	cc decaderun.c -o decaderun -lm
+	cc volrun.c -o volrun -lm
+	cc yearlyrun.c -o yearlyrun -lm
+	cc sessionlyrun.c -o sessionlyrun -lm
+	chmod +x comptwovols createvollist
+
+# Download and compile the author-identification software:
+
+	echo "Downloading and compiling author-identification programs ..."
+	lynx -source http://probability.ca/usscj/naivebayes.c > naivebayes.c
+	lynx -source http://probability.ca/usscj/naivebayesit > naivebayesit
+	lynx -source http://probability.ca/usscj/lindisc.c > lindisc.c
+	lynx -source http://probability.ca/usscj/lindiscit > lindiscit
+	lynx -source http://probability.ca/usscj/outlier.c > outlier.c
+	lynx -source http://probability.ca/usscj/outlierit > outlierit
+        cc naivebayes.c -o naivebayes -lm
+        cc lindisc.c -o lindisc -lm
+        cc outlier.c -o outlier -lm
+	chmod +x lindiscit naivebayesit outlierit
+
+# Finish up:
+
+	echo "Done."
+	exit 0
+
+

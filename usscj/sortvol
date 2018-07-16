@@ -1,0 +1,22 @@
+:
+
+set -e
+
+cd volume$1
+
+pwd
+
+for i in thecase*
+do
+  if test -f $i
+  then
+    if test `wc -w < $i` -lt 250
+    then
+      echo "mv -f $i small"
+      mv -f $i small
+    else
+      ../sortbyauthor $i
+    fi
+  fi
+done
+

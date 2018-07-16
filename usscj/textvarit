@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -e
+
+./textvar volume*/$1/thecase*
+
+mv -f bvals bvals$1
+

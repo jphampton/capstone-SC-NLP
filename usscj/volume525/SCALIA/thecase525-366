@@ -1,0 +1,311 @@
+   JUSTICE SCALIA delivered the opinion of the Court.
+
+   In these cases we address whether the Federal Communications Commission has authority to implement certain pricing and nonpricing provisions of the Telecommunications Act of 1996, as well as whether the Commission's rules governing
+
+   t Jonathan Jacob Nadler filed a brief for Covad Communications Co. as amicus curiae urging reversal.
+
+
+   unbundled access and "pick and choose" negotiation are consistent with the statute.
+
+
+   Until the 1990's, local phone service was thought to be a natural monopoly. States typically granted an exclusive franchise in each local service area to a local exchange carrier (LEC), which owned, among other things, the local loops (wires connecting telephones to switches), the switches (equipment directing calls to their destinations), and the transport trunks (wires carrying calls between switches) that constitute a local exchange network. Technological advances, however, have made competition among multiple providers of local service seem possible, and Congress recently ended the longstanding regime of state-sanctioned monopolies.
+
+   The Telecommunications Act of 1996 (1996 Act or Act), Pub. L. 104-104, 110 Stat. 56, fundamentally restructures local telephone markets. States may no longer enforce laws that impede competition, and incumbent LECs are subject to a host of duties intended to facilitate market entry. Foremost among these duties is the LEC's obligation under 47 U. S. C. § 251(c) (1994 ed., Supp. II) to share its network with competitors. Under this provision, a requesting carrier can obtain access to an incumbent's network in three ways: It can purchase local telephone services at wholesale rates for resale to end users; it can lease elements of the incumbent's network "on an unbundled basis"; and it can interconnect its own facilities with the incumbent's network.1 When an en-
+
+   1 Title 47 U. S. C. § 251(c) (1994 ed., Supp. II) provides as follows:
+
+   "Additional Obligations of Incumbent Local Exchange Carriers
+
+   "In addition to the duties contained in subsection (b) of this section, each incumbent local exchange carrier has the following duties:
+
+   "(1) Duty to Negotiate
+
+   "The duty to negotiate in good faith in accordance with section 252 of this title the particular terms and conditions of agreements to fulfill the
+
+
+   trant seeks access through any of these routes, the incumbent can negotiate an agreement without regard to the du-
+
+   duties described in paragraphs (1) through (5) of subsection (b) of this section and this subsection. The requesting telecommunications carrier also has the duty to negotiate in good faith the terms and conditions of such agreements.
+
+   "(2) Interconnection
+
+   "The duty to provide, for the facilities and equipment of any requesting telecommunications carrier, interconnection with the local exchange carrier's network-
+
+   "(A) for the transmission and routing of telephone exchange service and exchange access;
+
+   "(E) at any technically feasible point within the carrier's network;
+
+   "(C) that is at least equal in quality to that provided by the local exchange carrier to itself or to any subsidiary, affiliate, or any other party to which the carrier provides interconnection; and
+
+   "(D) on rates, terms, and conditions that are just, reasonable, and nondiscriminatory, in accordance with the terms and conditions of the agreement and the requirements of this section and section 252 of this title. "(3) Unbundled Access
+
+   "The duty to provide, to any requesting telecommunications carrier for the provision of a telecommunications service, nondiscriminatory access to network elements on an unbundled basis at any technically feasible point on rates, terms, and conditions that are just, reasonable, and nondiscriminatory in accordance with the terms and conditions of the agreement and the requirements of this section and section 252 of this title. An incumbent local exchange carrier shall provide such unbundled network elements in a manner that allows requesting carriers to combine such elements in order to provide such telecommunications service.
+
+   "(4) Resale "The duty-
+
+   "(A) to offer for resale at wholesale rates any telecommunications service that the carrier provides at retail to subscribers who are not telecommunications carriers; and
+
+   "(E) not to prohibit, and not to impose unreasonable or discriminatory conditions or limitations on, the resale of such telecommunications service, except that a State commission may, consistent with regulations prescribed by the Commission under this section, prohibit a reseller that obtains at wholesale rates a telecommunications service that is available at retail only to a category of subscribers from offering such service to a different category of subscribers.
+
+   "(5) Notice of Changes
+
+
+   ties it would otherwise have under § 251(b) 2 or § 251(c). See § 252(a)(1). But if private negotiation fails, either party can petition the state commission that regulates local phone service to arbitrate open issues, which arbitration is subject to § 251 and the FCC regulations promulgated thereunder.
+
+   Six months after the 1996 Act was passed, the FCC issued its First Report and Order implementing the local-
+
+   "The duty to provide reasonable public notice of changes in the information necessary for the transmission and routing of services using that local exchange carrier's facilities or networks, as well as of any other changes that would affect the interoperability of those facilities and networks.
+
+   "(6) Collocation
+
+   "The duty to provide, on rates, terms, and conditions that are just, reasonable, and nondiscriminatory, for physical collocation of equipment necessary for interconnection or access to unbundled network elements at the premises of the local exchange carrier, except that the carrier may provide for virtual collocation if the local exchange carrier demonstrates to the State commission that physical collocation is not practical for technical reasons or because of space limitations."
+
+   2 Section 251(b) imposes the following duties on incumbents: "(1) Resale
+
+   "The duty not to prohibit, and not to impose unreasonable or discriminatory conditions or limitations on, the resale of its telecommunications services.
+
+   "(2) Number Portability
+
+   "The duty to provide, to the extent technically feasible, number portability in accordance with requirements prescribed by the Commission. "(3) Dialing Parity
+
+   "The duty to provide dialing parity to competing providers of telephone exchange service and telephone toll service, and the duty to permit all such providers to have nondiscriminatory access to telephone numbers, operator services, directory assistance, and directory listing, with no unreasonable dialing delays.
+
+   "(4) Access to Rights-of-Way
+
+   "The duty to afford access to the poles, ducts, conduits, and rights-ofway of such carrier to competing providers of telecommunications services on rates, terms, and conditions that are consistent with section 224 of this title.
+
+   "(5) Reciprocal Compensation
+
+   "The duty to establish reciprocal compensation arrangements for the transport and termination of telecommunications."
+
+
+   competition provisions. In re Implementation of the Local Competition Provisions in the Telecommunications Act of 1996, 11 FCC Rcd 15499 (1996) (First Report & Order). The numerous challenges to this rulemaking, filed across the country by incumbent LECs and state utility commissions, were consolidated in the United States Court of Appeals for the Eighth Circuit.
+
+   The basic attack was jurisdictional. The LECs and state commissions insisted that primary authority to implement the local-competition provisions belonged to the States rather than to the FCC. They thus argued that many of the local-competition rules were invalid, most notably the one requiring that prices for interconnection and unbundled access be based on "Total Element Long Run Incremental Cost" (TELRIC)-a forward-looking rather than historic measure.3 See 47 CFR §§ 51.503, 51.505 (1997). The Court of Appeals agreed, and vacated the pricing rules, and several other aspects of the order, as reaching beyond the Commission's jurisdiction. Iowa Utilities Board v. FCC, 120 F.3d 753, 800, 804, 805-806 (1997). It held that the general rulemaking authority conferred upon the Commission by the Communications Act of 1934 extended only to interstate matters, and that the Commission therefore needed specific congressional authorization before implementing provisions of the 1996 Act addressing
+   intrastate telecommunications. I d., at 795. It found no such authorization for the Commission's rules regarding pricing, dialing parity,4 exemptions
+
+   3TELRIC pricing is based upon the cost of operating a hypothetical network built with the most efficient technology available. Incumbents argued below that this method was unreasonable because it stranded their historic costs and underestimated the actual costs of providing interconnection and unbundled access. The Eighth Circuit did not reach this issue, and the merits of TELRIC are not before us.
+
+   4 Dialing parity, which seeks to ensure that a new entrant's customers can make calls without having to dial an access code, was addressed in the Commission's Second Report and Order. See In re Implementation of the Local Competition Provisions of the Telecommunications Act of 1996,
+
+
+   for rural LECs, the proper procedure for resolving localcompetition disputes, and state review of pre-1996 interconnection agreements. Id., at 795-796, 802-806. Indeed, with respect to some of these matters, the Eighth Circuit said that the 1996 Act had affirmatively given exclusive authority to the state commissions. Id., at 795, 802, 805.
+
+   The Court of Appeals found support for its holdings in 47 U. S. C. § 152(b) (§ 2(b) of the Communications Act of 1934), which, it said, creates a presumption in favor of preserving state authority over intrastate communications. 120 F. 3d, at 796. It found nothing in the 1996 Act clear enough to overcome this presumption, which it described as a fence that is "hog tight, horse high, and bull strong, preventing the FCC from intruding on the states' intrastate turf." I d., at 800.
+
+   Incumbent LECs also made several challenges, only some of which are relevant here, to the rules implementing the 1996 Act's requirement of unbundled access. See 47 U. S. C. § 251(c)(3) (1994 ed., Supp. II). Rule 319, the primary unbundling rule, sets forth a minimum number of network elements that incumbents must make available to requesting carriers. See 47 CFR § 51.319 (1997). The LECs complained that, in compiling this list, the FCC had virtually ignored the 1996 Act's requirement that it consider whether access to proprietary elements was "necessary" and whether lack of access to nonproprietary elements would "impair" an entrant's ability to provide local service. See 47 U. S. C. § 251(d)(2) (1994 ed., Supp. II). In addition, the LECs thought that the list included items (like directory assistance and caller 1. D.) that did not meet the statutory definition of "network element." See § 153(29). The Eighth Circuit rebuffed both arguments, holding that the Commission's in-
+
+   11 FCC Rcd 19392 (1996). In a separate opinion that is also before us today, the Eighth Circuit vacated this rule insofar as it went beyond the FCC's jurisdiction over interstate calls. People of California v. FCC, 124 F. 3d 934, 943 (1997).
+
+
+   terpretations of the "necessary and impair" standard and the definition of "network element" were reasonable and hence lawful under Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc. (NRDC), 467 U. S. 837 (1984). See 120 F. 3d, at 809-810.
+
+   When it promulgated its unbundling rules, the Commission explicitly declined to impose a requirement of facility ownership on carriers who sought to lease network elements. First Report & Order ~~ 328-340. Because the list of elements that Rule 319 made available was so extensive, the effect of this omission was to allow competitors to provide local phone service relying solely on the elements in an incumbent's network. The LECs argued that this "all elements" rule undermined the 1996 Act's goal of encouraging entrants to develop their own facilities. The Court of Appeals, however, deferred to the FCC's approach. Nothing in the 1996 Act itself imposed a requirement of facility ownership, and the court was of the view that the language of § 251(c)(3) indicated that "a requesting carrier may achieve the capability to provide telecommunications services completely through access to the unbundled elements of an incumbent LECs' network." 120 F. 3d, at 814.
+
+   Given the sweep of the "all elements" rule, however, the Eighth Circuit thought that the FCC went too far in its Rule 315(b), which forbids incumbents to separate network elements before leasing them to competitors. 47 CFR § 51.315(b) (1997). Taken together, the two rules allowed requesting carriers to lease the incumbent's entire, preassembled network. The Court of Appeals believed that this would render the resale provision of the statute a dead letter, because by leasing the entire network rather than purchasing and reselling service offerings, entrants could obtain the same product-finished service-at a cost-based, rather than wholesale, rate. 120 F. 3d, at 813. Apparently reasoning that the word "unbundled" in § 251(c)(3) meant "physi-
+
+
+   cally separated," the court vacated Rule 315(b) for requiring access to the incumbent LECs' network elements "on a bundled rather than an unbundled basis." Ibid.
+
+   Finally, incumbent LECs objected to the Commission's "pick and choose" rule, which governs the terms of agreements between LECs and competing carriers. Under this rule, a carrier may demand that the LEC make available to it "any individual interconnection, service, or network element arrangement" on the same terms and conditions the LEC has given anyone else in an agreement approved under § 252without its having to accept the other provisions of the agreement. 47 CFR § 51.809 (1997); First Report & Order ~~ 1309-1310. The Court of Appeals vacated the rule, reasoning that it would deter the "voluntarily negotiated interconnection agreements" that the 1996 Act favored, by making incumbent LECs reluctant to grant quids for quos, so to speak, for fear that they would have to grant others the same quids without receiving quos. 120 F. 3d, at 801.
+
+   The Commission, MCI, and AT&T petitioned for review of the Eighth Circuit's holdings regarding jurisdiction, Rule 315(b), and the "pick and choose" rule; the incumbent LECs cross-petitioned for review of the Eighth Circuit's treatment of the other unbundling issues. We granted all the petitions. 522 U. S. 1089 (1998).
+
+
+   Section 201(b), a 1938 amendment to the Communications Act of 1934, provides that "[t]he Commission may prescribe such rules and regulations as may be necessary in the public interest to carry out the provisions of this Act." 52 Stat. 588, 47 U. S. C. § 201(b). Since Congress expressly directed that the 1996 Act, along with its local-competition provisions, be inserted into the Communications Act of 1934, 1996 Act, § l(b), 110 Stat. 56, the Commission's rulemaking authority
+
+
+   would seem to extend to implementation of the localcompetition provisions.5
+
+   The incumbent LECs and state commissions (hereinafter respondents) argue, however, that § 201(b) rulemaking authority is limited to those provisions dealing with purely interstate and foreign matters, because the first sentence of § 201(a) makes it "the duty of every common carrier engaged in interstate or foreign communication by wire or radio to furnish such communication service upon reasonable request therefor .... " It is impossible to understand how this use of the qualifier "interstate or foreign" in § 201(a), which limits the class of common carriers with the duty of providing communication service, reaches forward into the last sentence of § 201(b) to limit the class of provisions that the Commission has authority to implement. We think that the grant in § 201(b) means what it says: The FCC has rulemaking authority to carry out the "provisions of this Act," which include §§ 251 and 252, added by the Telecommunications Act of 1996.6
+
+   5 JUSTICE BREYER says, post, at 420, that "Congress enacted [the] language [of § 201(b)] in 1938," and that whether it confers "general authority to make rules implementing the more specific terms of a later enacted statute depends upon what that later enacted statute contemplates." That is assuredly true. But we think that what the later statute contemplates is best determined, not by speculating about what the 1996 Act (and presumably every other amendment to the Communications Act since 1938) "foresees," ibid., but by the clear fact that the 1996 Act was adopted, not as a freestanding enactment, but as an amendment to, and hence part of, an Act which said that "[t]he Commission may prescribe such rules and regulations as may be necessary in the public interest to carry out the provisions of this Act." JUSTICE BREYER cannot plausibly assert that the 1996 Congress was unaware of the general grant of rulemaking authority contained within the Communications Act, since § 251(i) specifically
+   provides that "[n]othing in this section shall be construed to limit or otherwise affect the Commission's authority under section 201."
+
+   6JUSTICE BREYER appeals to our cases which say that there is a '''presumption against the pre-emption of state police power regulations,'" post, at 420, quoting from Cipollone v. Liggett Group, Inc., 505 U. S. 504, 518
+
+
+   Our view is unaffected by 47 U. S. C. § 152(b) (§ 2(b) of the
+
+   1934 enactment), which reads:
+
+     "Except as provided in sections 223 through 227 ... , inclusive, and section 332 ... , and subject to the provisions of section 301 of this title ... , nothing in this chapter shall be construed to apply or to give the Commission jurisdiction with respect to ... charges, classifications, practices, services, facilities, or regulations for or in connection with intrastate communication. ... " servlce ....
+
+   The local-competition provisions are not identified in § 152(b)'s "except" clause. Seizing on this omission, respondents argue that the 1996 Act does nothing to displace the presumption that the States retain their traditional authority over local phone service.
+
+   Respondents' argument on this point is (necessarily) an extremely subtle one. They do not contend that the "noth-
+
+   (1992), and that there must be "'clear and manifest' showing of congressional intent to supplant traditional state police powers," post, at 420, quoting from Rice v. Santa Fe Elevator Corp., 331 U. S. 218, 230 (1947). But the question in these cases is not whether the Federal Government has taken the regulation of local telecommunications competition away from the States. With regard to the matters addressed by the 1996 Act, it unquestionably has. The question is whether the state commissions' participation in the administration of the new federal regime is to be guided by federal-agency regulations. If there is any "presumption" applicable to this question, it should arise from the fact that a federal program administered by 50 independent state agencies is surpassing strange.
+
+   The appeals by both JUSTICE THOMAS and JUSTICE BREYER to what might loosely be called "States' rights" are most peculiar, since there is no doubt, even under their view, that if the federal courts believe a state commission is not regulating in accordance with federal policy they may bring it to heel. This is, at bottom, a debate not about whether the States will be allowed to do their own thing, but about whether it will be the FCC or the federal courts that draw the lines to which they must hew. To be sure, the FCC's lines can be even more restrictive than those drawn by the courts-but it is hard to spark a passionate "States' rights" debate over that detail.
+
+
+   ing ... shall be construed" provision prevents all "appl[ication]" of the Communications Act, as amended in 1996, to intrastate service, or even precludes all "Commission jurisdiction with respect to" such service. Such an interpretation would utterly nullify the 1996 amendments, which clearly "apply" to intrastate service, and clearly confer "Commission jurisdiction" over some matters. Respondents argue, therefore, that the effect of the "[N]othing ... shall be construed" provision is to require an explicit "appl[ication]" to intrastate service, and in addition an explicit conferral of "Commission jurisdiction" over intrastate service, before Commission jurisdiction can be found to exist. Such explicit "appl[ication]," they acknowledge, was effected by the 1996 amendments, but "Commission jurisdiction" was explicitly conferred only as to a few matters.
+
+   The fallacy in this reasoning is that it ignores the fact that § 201(b) explicitly gives the FCC jurisdiction to make rules governing matters to which the 1996 Act applies. Respondents argue that avoiding this pari passu expansion of Commission jurisdiction with expansion of the substantive scope of the Act was the reason the "nothing shall be construed" provision was framed in the alternative: "[N]othing in this Act shall be construed to apply or to give the Commission jurisdiction" (emphasis added) with respect to the forbidden subjects. The italicized portion would have no operative effect, they assert, if every "application" of the Act automatically entailed Commission jurisdiction. The argument is an imaginative one, but ultimately fails. For even though "Commission jurisdiction" always follows where the Act "applies," Commission jurisdiction (so-called "ancillary" jurisdiction) could exist even where the Act does not "apply." The term "apply" limits the substantive reach of the
+   statute (and the concomitant scope of primary FCC jurisdiction), and the phrase "or to give the Commission jurisdiction" limits, in addition, the FCC's ancillary jurisdiction.
+
+
+   The need for both limitations is exemplified by Louisiana Pub. Servo Comm'n v. FCC, 476 U. S. 355 (1986), where the FCC claimed authority to issue rules governing depreciation methods applied by local telephone companies.7 The Commission supported its claim with two arguments. First, that it could regulate intrastate because Congress had intended the depreciation provisions of the Communications Act to bind state commissions-i. e., that the depreciation provisions "applied" to intrastate ratemaking. Id., at 376-377. We observed that "[w]hile it is, no doubt, possible to find some support in the broad language of the section for respondents' position, we do not find the meaning of the section so unambiguous or straightforward as to override the command of § 152(b) .... " Id., at 377. But the Commission also argued that, even if the statute's depreciation provisions did not apply intrastate, regulation of state depreciation methods would enable it to effectuate the federal policy of
+   encouraging competition in interstate telecommunications. Id., at 369. We rejected that argument because, even though the FCC's broad regulatory authority normally would have been enough to justify its regulation of intrastate depreciation methods that affected interstate commerce, see id., at 370; cf. Shreveport Rate Cases, 234 U. S. 342, 358 (1914), § 152(b) prevented the Commission from taking intrastate action solely because it furthered an interstate goal. 476 U. S., at 374.8
+
+   7We discuss the Louisiana case because of the light it sheds upon the meaning of § 152(b). We of course do not agree with JUSTICE BREYER'S contention, post, at 421, that the case "raised a question almost identical to the one before us." That case involved the Commission's attempt to regulate services over which it had not explicitly been given rulemaking authority; this one involves its attempt to regulate services over which it has explicitly been given rulemaking authority.
+
+   8 Because this reasoning clearly gives separate meanings to the provisions "apply" and "give the Commission jurisdiction," we do not understand why JUSTICE THOMAS asserts, post, at 409, that we have not given effect to every word that Congress used. Nor do we agree with JUSTICE
+
+
+   The parties have devoted some effort in these cases to debating whether § 251(d) serves as a jurisdictional grant to the FCC. That section provides that "[w]ithin 6 months
+
+   THOMAS that our interpretation renders § 152(b) a nullity. See ibid. After the 1996 Act, § 152(b) may have less practical effect. But that is because Congress, by extending the Communications Act into local competition, has removed a significant area from the States' exclusive control. Insofar as Congress has remained silent, however, § 152(b) continues to function. The Commission could not, for example, regulate any aspect of intrastate communication not governed by the 1996 Act on the theory that it had an ancillary effect on matters within the Commission's primary jurisdiction.
+
+   JUSTICE THOMAS admits, as he must, that the Commission has authority to implement at least some portions of the 1996 Act. See post, at 406. But his interpretation of § 152(b) confers such inflexibility upon that provision that he must strain to explain where the Commission gets this authority. A number of the provisions he relies on plainly read, not like conferrals of authority, but like references to the exercise of authority conferred elsewhere (we think, of course, in § 201(b)). See, e. g., § 251(b)(2) (assigning state commissions "[t]he duty to provide, to the extent technically feasible, number portability in accordance with requirements prescribed by the Commission"); § 251(d)(2) (setting forth factors for the Commission to consider "[i]n determining what network elements should be made available for purposes of subsection (c)(3)"); § 251(g) (requiring that any pre-existing "regulation, order, or policy of the Commission" governing exchange access and interconnection agreements
+   remain in effect until it is "explicitly superseded by regulations prescribed by the Commission"). Moreover, his interpretation produces a most chopped-up statute, conferring Commission jurisdiction over such curious and isolated matters as "number portability, ... those network elements that the carrier must make available on an unbundled basis for purposes of § 251(c), ... numbering administration, ... exchange access and interconnection requirements in effect prior to the Act's effective date, ... and treatment of comparable carriers as incumbents ... ," post, at 406, but denying Commission jurisdiction over much more significant matters. We think it most unlikely that Congress created such a strange hodgepodge. And, of course, JusTICE THOMAS'S recognition of any FCC jurisdiction over intrastate matters subjects his analysis to the same criticism he levels against us, post, at 409: Just as it is true that Congress did not explicitly amend § 152(b) to exempt the entire 1996 Act, neither
+   did it explicitly amend § 152(b) to exempt the five provisions he relies upon.
+
+
+   after [the date of enactment of the Telecommunications Act of 1996,] the Commission shall complete all actions necessary to establish regulations to implement the requirements of this section." 47 U. S. C. § 251(d) (1994 ed., Supp. II). The FCC relies on this section as an alternative source of jurisdiction, arguing that if it was necessary for Congress to include an express jurisdictional grant in the 1996 Act, § 251(d) does the job. Respondents counter that this provision functions only as a time constraint on the exercise of regulatory authority that the Commission has been given in the six subsections of § 251 that specifically mention the FCC. See §§ 251(b)(2), 251(c)(4)(B), 251(d)(2), 251(e), 251(g), 251(h)(2). Our understanding of the Commission's general authority under § 201(b) renders this debate academic.9
+
+   The jurisdictional objections we have addressed thus far pertain to an asserted lack of what might be called underlying FCC jurisdiction. The remaining jurisdictional argument is that certain individual provisions in the 1996 Act negate particular aspects of the Commission's implementing authority. With regard to pricing, respondents point to § 252(c), which provides:
+
+   9 JUSTICE THOMAS says that the grants of authority to the Commission in § 251 would have been unnecessary "[i]f Congress believed ... that § 201(b) provided the FCC with plenary authority to promulgate regulations." Post, at 408. We have already explained that three of the five provisions on which JUSTICE THOMAS relies are not grants of authority at all. See n. 8, supra. And the remaining two do not support his argument because they are not redundant of §201(b). Section 251(e), which provides that "[t]he Commission shall create or designate one or more impartial entities to administer telecommunications numbering," requires the Commission to exercise its rulemaking authority, as opposed to § 201(b), which merely authorizes the Commission to promulgate rules if it so chooses. Section 251(h)(2) says that the FCC "may, by rule, provide for the treatment of a local exchange carrier ... as an incumbent local exchange carrier for purposes of [§ 251]" if the carrier satisfies certain requirements.
+   This provision gives the Commission authority beyond that conferred by § 201(b); without it, the FCC certainly could not have saddled a nonincumbent carrier with the burdens of incumbent status.
+
+
+     "(c) Standards for Arbitration
+
+     "In resolving by arbitration under subsection (b) any open issues and imposing conditions upon the parties to the agreement, a State commission shall-
+
+     "(1) ensure that such resolution and conditions meet the requirements of section 251, including the regulations prescribed by the Commission pursuant to section 251;
+
+     "(2) establish any rates for interconnection, services, or network elements according to subsection (d); and "(3) provide a schedule for implementation of the
+
+     terms and conditions by the parties to the agreement."
+
+   Respondents contend that the Commission's TELRIC rule is invalid because § 252(c)(2) entrusts the task of establishing rates to the state commissions. We think this attributes to that task a greater degree of autonomy than the phrase "establish any rates" necessarily implies. The FCC's prescription, through rulemaking, of a requisite pricing methodology no more prevents the States from establishing rates than do the statutory "Pricing standards" set forth in § 252(d). It is the States that will apply those standards and implement that methodology, determining the concrete result in particular circumstances. That is enough to constitute the establishment of rates.
+
+   Respondents emphasize the fact that § 252(c)(1), which requires state commissions to assure compliance with the provisions of § 251, adds "including the regulations prescribed by the Commission pursuant to section 251," whereas § 252(c)(2), which requires state commissions to assure compliance with the pricing standards in subsection (d), says nothing about Commission regulations applicable to subsection (d). There is undeniably a lack of parallelism here, but it seems to us adequately explained by the fact that § 251 specifically requires the Commission to promulgate regulations implementing that provision, whereas subsection (d)
+
+
+   of § 252 does not. It seems to us not peculiar that the mandated regulations should be specifically referenced, whereas regulations permitted pursuant to the Commission's § 201(b) authority are not. In any event, the mere lack of parallelism is surely not enough to displace that explicit authority. We hold, therefore, that the Commission has jurisdiction to design a pricing methodology.
+
+   For similar reasons, we reverse the Court of Appeals' determinations that the Commission had no jurisdiction to promulgate rules regarding state review of pre-existing interconnection agreements between incumbent LECs and other carriers, regarding rural exemptions, and regarding dialing parity. See 47 CFR §§ 51.303, 51.405, and 51.20551.215 (1997). None of the statutory provisions that these rules interpret displaces the Commission's general rulemaking authority. While it is true that the 1996 Act entrusts state commissions with the job of approving interconnection agreements, 47 U. S. C. § 252(e) (1994 ed., Supp. II), and granting exemptions to rural LECs, § 251(f), these assignments, like the rate-establishing assignment just discussed, do not logically preclude the Commission's issuance of rules to guide the state-commission judgments. And since the provision addressing dialing parity, § 251(b)(3), does not even mention the States, it is even clearer that the Commission's § 201(b)
+   authority is not superseded.10
+
+   10 JUSTICE THOMAS notes that it is well settled that state officers may interpret and apply federal law, see, e. g., United States v. Jones, 109 U. S. 513 (1883), which leads him to conclude that there is no constitutional impediment to the interpretation that would give the States general authority, uncontrolled by the FCC's general rulemaking authority, over the matters specified in the particular sections we have just discussed. Post, at 411-412. But constitutional impediments aside, we are aware of no similar instances in which federal policymaking has been turned over to state administrative agencies. The arguments we have been addressing in the last three paragraphs of our text assume a scheme in which Congress has broadly extended its law into the field of intrastate telecommunications,
+
+
+   Finally (as to jurisdiction), respondents challenge the claim in the Commission's First Report & Order that § 208, a provision giving the Commission general authority to hear complaints arising under the Communications Act of 1934, also gives it authority to review agreements approved by state commissions under the local-competition provisions. First Report & Order ~~ 121-128. The Eighth Circuit held that the Commission's "perception of its authority ... is untenable ... in light of the language and structure of the Act and ... operation of [§ 152(b)]." 120 F. 3d, at 803. The Court of Appeals erred in reaching this claim because it is not ripe. When, as is the case with this Commission statement, there is no immediate effect on the plaintiff's primary conduct, federal courts normally do not entertain preenforcement challenges to agency rules and policy statements. Toilet Goods Assn., Inc. v. Gardner, 387 U. S. 158 (1967); see also Lujan v. National Wildlife Federation, 497 U. S. 871, 891
+   (1990).
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       III A
+
+   We turn next to the unbundling rules, and come first to the incumbent LECs' complaint that the FCC included within the features and services that must be provided to competitors under Rule 319 items that do not (as they must) meet the statutory definition of "network element"-namely, operator services and directory assistance, operational support systems (OSS), and vertical switching functions such as caller 1. D., call forwarding, and call waiting. See 47 CFR
+
+   but in a few specified areas (ratemaking, interconnection agreements, etc.) has left the policy implications of that extension to be determined by state commissions, which-within the broad range of lawful policymaking left open to administrative agencies-are beyond federal control. Such a scheme is decidedly novel, and the attendant legal questions, such as whether federal courts must defer to state agency interpretations of federal law, are novel as well.
+
+
+   §§ 51.319(f)-(g) (1997); First Report & Order ~ 413. The statute defines "network element" as
+
+     "a facility or equipment used in the provision of a telecommunications service. Such term also includes features, functions, and capabilities that are provided by means of such facility or equipment, including subscriber numbers, databases, signaling systems, and information sufficient for billing and collection or used in the transmission, routing, or other provision of a telecommunications service." 47 U. S. C. § 153(29) (1994 ed., Supp. II).
+
+   Given the breadth of this definition, it is impossible to credit the incumbents' argument that a "network element" must be part of the physical facilities and equipment used to provide local phone service. Operator services and directory assistance, whether they involve live operators or automation, are "features, functions, and capabilities ... provided by means of" the network equipment. OSS, the incumbent's background software system, contains essential network information as well as programs to manage billing, repair ordering, and other functions. Section 153(29)'s reference to "databases ... and information sufficient for billing and collection or used in the transmission, routing, or other provision of a telecommunications service" provides ample basis for treating this system as a "network element." And vertical switching features, such as caller 1. D., are "functions ... provided by means of" the switch, and thus fall squarely within the statutory definition. We agree with the
+   Eighth Circuit that the Commission's application of the "network element" definition is eminently reasonable. See Chevron v. NRDC, 467 U. S., at 866.
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         B
+
+   We are of the view, however, that the FCC did not adequately consider the "necessary and impair" standards when it gave blanket access to these network elements, and others, in Rule 319. That Rule requires an incumbent to provide
+
+
+   requesting carriers with access to a minimum of seven network elements: the local loop, the network interface device, switching capability, interoffice transmission facilities, signaling networks and call-related data bases, operations support systems functions, and operator services and directory assistance. 47 CFR § 51.319 (1997). If a requesting carrier wants access to additional elements, it may petition the state commission, which can make other elements available on a case-by-case basis. § 51.317.
+
+   Section 251(d)(2) of the Act provides:
+
+     "In determining what network elements should be made available for purposes of subsection (c)(3) of this section, the Commission shall consider, at a minimum, whether-
+
+     "(A) access to such network elements as are proprietary in nature is necessary; and
+
+     "(B) the failure to provide access to such network elements would impair the ability of the telecommunications carrier seeking access to provide the services that it seeks to offer."
+
+   The incumbents argue that § 251(d)(2) codifies something akin to the "essential facilities" doctrine of antitrust theory, see generally 3A P. Areeda & H. Hovenkamp, Antitrust Law ~~ 771-773 (1996), opening up only those "bottleneck" elements unavailable elsewhere in the marketplace. We need not decide whether, as a matter of law, the 1996 Act requires the FCC to apply that standard; it may be that some other standard would provide an equivalent or better criterion for the limitation upon network-element availability that the statute has in mind. But we do agree with the incumbents that the Act requires the FCC to apply some limiting standard, rationally related to the goals of the Act, which it has simply failed to do. In the general statement of its methodology set forth in the First Report and Order, the Commission announced that it would regard the "necessary" stand-
+
+
+   ard as having been met regardless of whether "requesting carriers can obtain the requested proprietary element from a source other than the incumbent," since "[r]equiring new entrants to duplicate unnecessarily even a part of the incumbent's network could generate delay and higher costs for new entrants, and thereby impede entry by competing local providers and delay competition, contrary to the goals of the 1996 Act." First Report & Order ~ 283. And it announced that it would regard the "impairment" standard as having been met if "the failure of an incumbent to provide access to a network element would decrease the quality, or increase the financial or administrative cost of the service a requesting carrier seeks to offer, compared with providing that service over other unbundled elements in the incumbent LEG's network," id., ~ 285 (emphasis added)-which means that comparison with self-provision, or with purchasing from another provider, is excluded. Since any entrant will request the most
+   efficient network element that the incumbent has to offer, it is hard to imagine when the incumbent's failure to give access to the element would not constitute an "impairment" under this standard. The Commission asserts that it deliberately limited its inquiry to the incumbent's own network because no rational entrant would seek access to network elements from an incumbent if it could get better service or prices elsewhere. That may be. But that judgment allows entrants, rather than the Commission, to determine whether access to proprietary elements is necessary, and whether the failure to obtain access to nonproprietary elements would impair the ability to provide services. The Commission cannot, consistent with the statute, blind itself to the availability of elements outside the incumbent's network. That failing alone would require the Commission's rule to be set aside. In addition, however, the Commission's assumption that any increase in cost (or decrease in quality) imposed by denial
+   of a network element renders access to that element "necessary," and causes the failure to provide
+
+
+   that element to "impair" the entrant's ability to furnish its desired services, is simply not in accord with the ordinary and fair meaning of those terms. An entrant whose anticipated annual profits from the proposed service are reduced from 100% of investment to 99% of investment has perhaps been "impaired" in its ability to amass earnings, but has not ipso facto been "impair[ed] ... in its ability to provide the services it seeks to offer"; and it cannot realistically be said that the network element enabling it to raise its profits to 100% is "necessary." 11 In a world of perfect competition, in which all carriers are providing their service at marginal cost, the Commission's total equating of increased cost (or decreased quality) with "necessity" and "impairment" might be reasonable; but it has not established the existence of such an ideal world. We cannot avoid the conclusion that, if Congress had wanted to give blanket access to incumbents' networks on a basis as unrestricted as the
+   scheme the Commission has come up with, it would not have included § 251(d)(2) in the statute at all. It would simply have said (as the Commission in effect has) that whatever requested element can be provided must be provided.
+
+   When the full record of these proceedings is examined, it appears that that is precisely what the Commission thought
+
+   llJUSTICE SOUTER points out that one can say his ability to replace a light bulb is "impaired" by the absence of a ladder, and that a ladder is "necessary" to replace the bulb, even though one "could stand instead on a chair, a milk can, or eight volumes of Gibbon." True enough (and nicely put), but the proper analogy here, it seems to us, is not the absence of a ladder, but the presence of a ladder tall enough to enable one to do the job, but not without stretching one's arm to its full extension. A ladder one-half inch taller is not, "within an ordinary and fair meaning of the word," post, at 399, "necessary," nor does its absence "impair" one's ability to do the job. We similarly disagree with JUSTICE SOUTER that a business can be impaired in its ability to provide services-even impaired in that ability "in an ordinary, weak sense of impairment," post, at 400when the business receives a handsome profit but is denied an even handsomer one.
+
+
+   Congress had said. The FCC was content with its expansive methodology because of its misunderstanding of § 251(c)(3), which directs an incumbent to allow a requesting carrier access to its network elements "at any technically feasible point." The Commission interpreted this to "impos[e] on an incumbent LEC the duty to provide all network elements for which it is technically feasible to provide access," and went on to "conclude that we have authority to establish regulations that are coextensive" with this duty. First Report & Order ~ 278 (emphasis added). See also id., ~ 286 ("We conclude that the statute does not require us to interpret the 'impairment' standard in a way that would significantly diminish the obligation imposed by section 251(c)(3)"). As the Eighth Circuit held, that was undoubtedly wrong: Section 251(c)(3) indicates "where unbundled access must occur, not which [network] elements must be unbundled." 120 F. 3d, at 810. The Commission does not seek review of the Eighth
+   Circuit's holding on this point, and we bring it into our discussion only because the Commission's application of § 251(d)(2) was colored by this error. The Commission began with the premise that an incumbent was obliged to turn over as much of its network as was "technically feasible," and viewed subsection (d)(2) as merely permitting it to soften that obligation by regulatory grace:
+
+     "To give effect to both sections 251(c)(3) and 251(d)(2), we conclude that the proprietary and impairment standards in section 251(d)(2) grant us the authority to refrain from requiring incumbent LECs to provide all network elements for which it is technically feasible to provide access on an unbundled basis." First Report & Order ~279.
+
+   The Commission's premise was wrong. Section 251(d)(2) does not authorize the Commission to create isolated exemptions from some underlying duty to make all network elements available. It requires the Commission to determine
+
+
+   on a rational basis which network elements must be made available, taking into account the objectives of the Act and giving some substance to the "necessary" and "impair" requirements. The latter is not achieved by disregarding entirely the availability of elements outside the network, and by regarding any "increased cost or decreased service quality" as establishing a "necessity" and an "impair[ment]" of the ability to "provide ... services."
+
+   The Commission generally applied the above described methodology as it considered the various network elements seriatim. See id., ~~ 388-393, 419-420, 447, 481-482, 490491, 497-499, 521-522, 539-540. Though some of these sections contain statements suggesting that the Commission's action might be supported by a higher standard, see, e. g., id., ~~ 521-522, no other standard is consistently applied and we must assume that the Commission's expansive methodology governed throughout. Because the Commission has not interpreted the terms of the statute in a reasonable fashion, we must vacate 47 CFR § 51.319 (1997).
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         C
+
+   The incumbent LECs also renew their challenge to the "all elements" rule, which allows competitors to provide local phone service relying solely on the elements in an incumbent's network. See First Report & Order ~~ 328-340. This issue may be largely academic in light of our disposition of Rule 319. If the FCC on remand makes fewer network elements unconditionally available through the unbundling requirement, an entrant will no longer be able to lease every component of the network. But whether a requesting carrier can access the incumbent's network in whole or in part, we think that the Commission reasonably omitted a facilities-ownership requirement. The 1996 Act imposes no such limitation; if anything, it suggests the opposite, by requiring in § 251(c)(3) that incumbents provide access to "any" requesting carrier. We agree with the Court of Ap-
+
+
+   peals that the Commission's refusal to impose a facilitiesownership requirement was proper.
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         D
+
+   Rule 315(b) forbids an incumbent to separate alreadycombined network elements before leasing them to a competitor. As they did in the Court of Appeals, the incumbents object to the effect of this Rule when it is combined with others before us today. TELRIC allows an entrant to lease network elements based on forward-looking costs, Rule 319 subjects virtually all network elements to the unbundling requirement, and the all-elements rule allows requesting carriers to rely only on the incumbent's network in providing service. When Rule 315(b) is added to these, a competitor can lease a complete, preas sembled network at (allegedly very low) cost-based rates.
+
+   The incumbents argue that this result is totally inconsistent with the 1996 Act. They say that it not only eviscerates the distinction between resale and unbundled access, but that it also amounts to Government-sanctioned regulatory arbitrage. Currently, state laws require local phone rates to include a "universal service" subsidy. Business customers, for whom the cost of service is relatively low, are charged significantly above cost to subsidize service to rural and residential customers, for whom the cost of service is relatively high. Because this universal-service subsidy is built into retail rates, it is passed on to carriers who enter the market through the resale provision. Carriers who purchase network elements at cost, however, avoid the subsidy altogether and can lure business customers away from incumbents by offering rates closer to cost. This, of course, would leave the incumbents holding the bag for universal service.
+
+   As was the case for the all-elements rule, our remand of Rule 319 may render the incumbents' concern on this score academic. Moreover, § 254 requires that universal-service
+
+
+   subsidies be phased out, so whatever possibility of arbitrage remains will be only temporary. In any event, we cannot say that Rule 315(b) unreasonably interprets the statute.
+
+   Section 251(c)(3) establishes:
+
+     "The duty to provide, to any requesting telecommunications carrier for the provision of a telecommunications service, nondiscriminatory access to network elements on an unbundled basis at any technically feasible point on rates, terms, and conditions that are just, reasonable, and nondiscriminatory in accordance with the terms and conditions of the agreement and the requirements of this section and section 252 .... An incumbent local exchange carrier shall provide such unbundled network elements in a manner that allows requesting carriers to combine such elements in order to provide such telecommunications service."
+
+   Because this provision requires elements to be provided in a manner that "allows requesting carriers to combine" them, incumbents say that it contemplates the leasing of network elements in discrete pieces. It was entirely reasonable for the Commission to find that the text does not command this conclusion. It forbids incumbents to sabotage network elements that are provided in discrete pieces, and thus assuredly contemplates that elements may be requested and provided in this form (which the Commission's rules do not prohibit). But it does not say, or even remotely imply, that elements must be provided only in this fashion and never in combined form. Nor are we persuaded by the incumbents' insistence that the phrase "on an unbundle[d] basis" in § 251(c)(3) means "physically separated." The dictionary definition of "unbundle[d]" (and the only definition given, we might add) matches the FCC's interpretation of the word: "to give separate prices for equipment and supporting services."
+   Webster's Ninth New Collegiate Dictionary 1283 (1988).
+
+
+   The reality is that § 251(c)(3) is ambiguous on whether leased network elements mayor must be separated, and the rule the Commission has prescribed is entirely rational, finding its basis in § 251(c)(3)'s nondiscrimination requirement. As the Commission explains, it is aimed at preventing incumbent LECs from "disconnect[ing] previously connected elements, over the objection of the requesting carrier, not for any productive reason, but just to impose wasteful reconnection costs on new entrants." Reply Brief for Federal Petitioners and Brief for Federal Cross-Respondents 23. It is true that Rule 315(b) could allow entrants access to an entire preas sembled network. In the absence of Rule 315(b), however, incumbents could impose wasteful costs on even those carriers who requested less than the whole network. It is well within the bounds of the reasonable for the Commission to opt in favor of ensuring against an anticompetitive practice.
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        IV
+
+   The FCC's "pick and choose" rule provides, in relevant
+
+   part:
+
+     "An incumbent LEC shall make available without unreasonable delay to any requesting telecommunications carrier any individual interconnection, service, or network element arrangement contained in any agreement to which it is a party that is approved by a state commission pursuant to section 252 of the Act, upon the same rates, terms, and conditions as those provided in the agreement." 47 CFR § 51.809 (1997).
+
+   Respondents argue that this rule threatens the give-andtake of negotiations, because every concession as to an "interconnection, service, or network element arrangement" made (in exchange for some other benefit) by an incumbent LEC will automatically become available to every potential entrant into the market. A carrier who wants one term
+
+
+   from an existing agreement, they say, should be required to accept all the terms in the agreement.
+
+   Although the latter proposition seems eminently fair, it is hard to declare the FCC's rule unlawful when it tracks the pertinent statutory language almost exactly. Title 47 U. S. C. § 252(i) (1994 ed., Supp. II) provides:
+
+     "A local exchange carrier shall make available any interconnection, service, or network element provided under an agreement approved under this section to which it is a party to any other requesting telecommunications carrier upon the same terms and conditions as those provided in the agreement."
+
+   The FCC's interpretation is not only reasonable, it is the most readily apparent. Moreover, in some respects the rule is more generous to incumbent LECs than § 252(i) itself. It exempts incumbents who can prove to the state commission that providing a particular interconnection service or network element to a requesting carrier is either (1) more costly than providing it to the original carrier, or (2) technically infeasible. 47 CFR § 51.809(b) (1997). And it limits the amount of time during which negotiated agreements are open to requests under this section. § 51.809(c). The Commission has said that an incumbent LEC can require a requesting carrier to accept all terms that it can prove are "legitimately related" to the desired term. First Report & Order ~ 1315. Section 252(i) certainly demands no more than that. And whether the Commission's approach will significantly impede negotiations (by making it impossible for favorable interconnection-service or network-element terms to be traded
+   off against unrelated provisions) is a matter eminently within the expertise of the Commission and eminently beyond our ken. We reverse the Eighth Circuit and reinstate the rule.
+
+
+
+   It would be gross understatement to say that the 1996 Act is not a model of clarity. It is in many important respects a model of ambiguity or indeed even self-contradiction. That is most unfortunate for a piece of legislation that profoundly affects a crucial segment of the economy worth tens of billions of dollars. The 1996 Act can be read to grant (borrowing a phrase from incumbent GTE) "most promiscuous rights" to the FCC vis-a-vis the state commissions and to competing carriers vis-a-vis the incumbents-and the Commission has chosen in some instances to read it that way. But Congress is well aware that the ambiguities it chooses to produce in a statute will be resolved by the implementing agency, see Chevron, 467 U. S., at 842-843. We can only enforce the clear limits that the 1996 Act contains, which in the present cases invalidate only Rule 319.
+
+   For the reasons stated, the July 18, 1997, judgment of the Court of Appeals, 120 F.3d 753, is reversed in part and affirmed in part; the August 22, 1997, judgment of the Court of Appeals, 124 F.3d 934, is reversed in part; and the cases are remanded for proceedings consistent with this opinion.
+
+   It is so ordered.

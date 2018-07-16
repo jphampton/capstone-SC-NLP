@@ -1,0 +1,92 @@
+#!/bin/sh
+
+set -e
+
+if test -d volume$1
+then
+  echo " removing old data ..."
+  rm -rf volume$1
+fi
+
+# Create directories as necessary.
+mkdir volume$1
+mkdir volume$1/topless 2> /dev/null
+mkdir volume$1/bottomless 2> /dev/null
+mkdir volume$1/curiam 2> /dev/null
+mkdir volume$1/small 2> /dev/null
+
+echo " grabbing case list ..."
+
+if test -n "$USECURL"
+then
+
+  rm -f ./tmpp.html
+  curl -s "https://supreme.justia.com/cases/federal/us/$1/" > tmpp.html
+  lynx -dump -nolist file://`pwd`/tmpp.html \
+	| grep "https:\/\/supreme" \
+	| sed -e "s/ *//" \
+        > volume$1/caselist
+
+else
+
+  \lynx -dump -nolist -width=999999 "https://supreme.justia.com/cases/federal/us/$1/" \
+	| grep "https:\/\/supreme" \
+	| sed -e "s/ *//" \
+        > volume$1/caselist
+fi
+
+# Grab the individual cases, one by one.
+echo " grabbing from list"
+./grabfromlist $1
+
+# Sort the cases according to listed author.
+./sortvol $1
+
+# Make corrections for multiple authors with same surname.
+if (test $1 -lt 350) && (test -d volume$1/ROBERTS)
+then
+    echo "volume $1: moving ROBERTS to ROBERTS1."
+    mv -f volume$1/ROBERTS volume$1/ROBERTS1
+fi
+if (test $1 -lt 100) && (test -d volume$1/MARSHALL)
+then
+    echo "volume $1: moving MARSHALL to MARSHALL1."
+    mv -f volume$1/MARSHALL volume$1/MARSHALL1
+fi
+if (test $1 -lt 300) && (test -d volume$1/WHITE)
+then
+    echo "volume $1: moving WHITE to WHITE1."
+    mv -f volume$1/WHITE volume$1/WHITE1
+fi
+if (test $1 -lt 300) && (test -d volume$1/HARLAN)
+then
+    echo "volume $1: moving HARLAN to HARLAN1."
+    mv -f volume$1/HARLAN volume$1/HARLAN1
+fi
+if (test $1 -lt 200) && (test -d volume$1/JACKSON)
+then
+    echo "volume $1: moving JACKSON to JACKSON1."
+    mv -f volume$1/JACKSON volume$1/JACKSON1
+fi
+if (test $1 -lt 200) && (test -d volume$1/LAMAR)
+then
+    echo "volume $1: moving LAMAR to LAMAR1."
+    mv -f volume$1/LAMAR volume$1/LAMAR1
+fi
+if (test $1 -lt 4) && (test -d volume$1/JOHNSON)
+then
+    echo "volume $1: moving JOHNSON to JOHNSON1."
+    mv -f volume$1/JOHNSON volume$1/JOHNSON1
+fi
+if (test $1 -lt 100) && (test -d volume$1/RUTLEDGE)
+then
+    echo "volume $1: moving RUTLEDGE to RUTLEDGE1."
+    mv -f volume$1/RUTLEDGE volume$1/RUTLEDGE1
+fi
+if (test $1 -lt 30) && (test -d volume$1/CHASE)
+then
+    echo "volume $1: moving CHASE to CHASE1."
+    mv -f volume$1/CHASE volume$1/CHASE1
+fi
+
+

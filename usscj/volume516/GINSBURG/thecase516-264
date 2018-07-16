@@ -1,0 +1,108 @@
+   JUSTICE GINSBURG delivered the opinion of the Court. This case concerns the Expedited Funds Availability Act, 12 U. S. C. §§4001-4010, a 1987 law designed to accelerate the availability of funds to bank depositors and to improve the Nation's check payment system. We confront a jurisdictional question regarding the Act's civil liability provisions, in particular §§ 4010(a), (d), and (f): Is federal-court subjectmatter jurisdiction under those provisions confined to suits initiated by bank customers against banks, as the Court of Appeals held, or do federal courts have jurisdiction, as well, over suits brought by one bank against another depository institution? We hold that the Act provides for federal-court jurisdiction not only in suits between customers and banks, but also in cases initiated by one bank against another bank.
+
+
+   Historically, the Nation's check payment system has been controlled primarily by state law, particularly, in recent decades, by articles 3 and 4 of the Uniform Commercial Code (UCC). Although federal regulations have long supplemented state law in this area, see most notably Regulation J, 12 CFR pt. 210 (1995), the UCC has supplied the basic legal framework for bank deposits and check collections. But despite UCC controls, the check-clearing process too often lagged, taking days or even weeks to complete. To protect themselves against the risk that a deposited check would be returned unpaid, banks typically placed lengthy "holds" on deposited funds. Bank customers, encountering long holds, complained that delayed access to deposited funds
+
+   *Briefs of amici curiae urging reversal were filed for the Electronic Check Clearing House Organization by Robert G. Ba II en, Gilbert T. Schwartz, and Dina J. Moskowitz; and for the New York Clearing House Association by Philip L. Graham, Jr., and Norman R. Nelson.
+
+
+   impeded the expeditious use of their checking accounts. See S. Rep. No. 100-19, pp. 25-26 (1987).
+
+   In 1987, Congress responded by passing the Expedited Funds Availability Act (EFA Act or Act), 101 Stat. 635, as amended, 12 U. S. C. §§ 4001-4010. The Act requires banks 1 to make deposited funds available for withdrawal within specified time periods, subject to stated exceptions. See §§ 4002, 4003. To reduce banks' risk of nonpayment, the Act grants the Board of Governors of the Federal Reserve System (Federal Reserve Board or Board) broad authority to prescribe regulations expediting the collection and return of checks. § 4008. The Board and other banking agencies are authorized to enforce the Act's provisions administratively, by issuing cease-and-desist orders and imposing other civil sanctions. See § 4009(a) (incorporating administrative enforcement provisions of 12 U. S. C. § 1818).
+
+   The Act's final section contains civil liability provisions, which are the focus of this case. See § 4010. Subsection 4010(a) addresses a bank's liability to persons other than another depository institution. It provides, in pertinent part:
+
+     "Except as otherwise provided in this section, any depository institution which fails to comply with any requirement imposed under this chapter or any regulation prescribed under this chapter with respect to any person other than another depository institution is liable to such person in an amount equal to the sum of [a specified measure of damages]."
+
+   Subsection 4010(f) governs a bank's liability to another bank for violation of the Act's provisions. It states:
+
+     "The Board is authorized to impose on or allocate among depository institutions the risks of loss and liability in connection with any aspect of the [check] payment
+
+   IThe EFA Act applies to "depository institution[s]," as that term is defined in 12 U. S. C. § 461(b)(1)(A). See 12 U. S. C. § 4001(12). For simplicity, we often use the term "bank" instead.
+
+
+     system .... Liability under this subsection shall not exceed the amount of the check giving rise to the loss or liability, and, where there is bad faith, other damages, if any, suffered as a proximate consequence of any act or omission giving rise to the loss or liability."
+
+   Subsection 4010(d) provides for concurrent federal-court and state-court jurisdiction over civil liability suits:
+
+     "Any action under this section may be brought in any United States district court, or in any other court of competent jurisdiction, within one year after the date of the occurrence of the violation involved."
+
+   The Federal Reserve Board has implemented the EFA Act through Regulation CC, 12 CFR pt. 229 (1995). Subpart C of Regulation CC contains rules to expedite the collection and return of checks. It requires banks, among other things, to return checks "in an expeditious manner," § 229.30(a); provide prompt notice of nonpayment of certain checks, § 229.33(a); and include in the notice the reason for nonpayment, § 229.33(b)(8). Section 229.38 states standards governing interbank liability. It instructs banks to "exercise ordinary care and act in good faith in complying with the requirements of [Subpart C]," and further prescribes (in relevant part): "A bank that fails to exercise ordinary care or act in good faith ... may be liable to" other depository institutions. § 229.38(a). Section 229.38 repeats the jurisdictional provision Congress placed in 12 U. S. C. § 4010(d), i. e., the regulation provides for concurrent federal-court and state-court jurisdiction over "[a]ny action under this subpart."
+   12 CFR § 229.38(g) (1995).
+
+
+   This controversy stems from an interbank dispute regarding a dishonored check. Petitioner Bank One Chicago sued respondent Midwest Bank & Trust Co. in Federal District Court, alleging that Midwest had failed to comply with its
+
+
+   obligations under Regulation CC. The facts underlying the suit are uncontested. A customer of Bank One deposited a check for $64,294.27 drawn on an account at Midwest. Bank One forwarded the check through the Federal Reserve System for collection, but Midwest returned it unpaid because Bank One's endorsement stamp was illegible. Bank One properly endorsed the check, resubmitted it for collection, and made the funds available to the Bank One customer. Midwest again returned the check unpaid, this time stating that the payor's account lacked sufficient funds to cover the check. By then, however, Bank One's customer had withdrawn most of the funds from its account. Bank One sought to recover the amount it paid out to its customer against funds that remain uncollected.
+
+   On cross-motions for summary judgment, the District Court ruled for Bank One. That court centrally determined: "Midwest did not act with ordinary care [when it] return[ed] the check for guarantee of endorsement without first checking the sufficiency of the funds in support of the check." App. to Pet. for Cert. 12. To satisfy the payor bank's obligation under 12 CFR § 229.38(a) (1995), the court explained, Midwest should have notified Bank One of the insufficient funds problem the first time Midwest returned the check. By failing to do so, the court concluded, Midwest had caused Bank One to lose $43,912.06. The court accordingly entered judgment for Bank One in that amount. App. to Pet. for Cert. 15. Midwest appealed.
+
+   The Court of Appeals for the Seventh Circuit did not reach the merits of the appeal. Instead, the appellate court raised at oral argument, on its own motion, a threshold question of subject-matter jurisdiction. After affording the parties an opportunity to file memoranda, the Court of Appeals vacated the judgment for Bank One and ordered the District Court to dismiss the action for lack of jurisdiction. First Illinois Bank & Trust v. Midwest Bank & Trust Co., 30 F.3d 64, 65 (1994).
+
+
+   Examining the civil liability provisions of 12 U. S. C. § 4010, the Court of Appeals concluded that the EFA Act provides for federal-court jurisdiction only when a "person other than [a] depository institution" sues a "depository institution," see 12 U. S. C. § 4010(a), i. e., principally, when a depositor sues a bank. 30 F. 3d, at 65. "Disputes such as [Bank One's complaint against Midwest], between members of the Federal Reserve System," the Seventh Circuit stated, "are to be handled administratively before the Board of Governors of the Federal Reserve System ... (or perhaps in state court)." Ibid. The court added, in response to a submission by the Federal Reserve Board: "Although the Board of Governors has informed us that no mechanism is currently available for administrative resolution of such [interbank] disputes, the Board's differing interpretation of this statute cannot confer jurisdiction upon the Court." Ibid.
+
+   We granted certiorari. 515 U. S. 1157 (1995). Satisfied that the District Court had adjudicatory authority in this case, we now reverse the judgment of the Court of Appeals.
+
+
+   The Court of Appeals and the parties advance diverse readings of 12 U. S. C. § 4010. According to the Seventh Circuit, § 4010 authorizes original federal-court jurisdiction only in actions between a bank and a person other than a bank. Subsection 4010(a) alone, in the Court of Appeals' view, provides for rights immediately enforceable in federal court, and that subsection excludes interbank suits, for it applies only to "disputes between 'any depository institution' and 'any person other than another depository institution.'" 30 F. 3d, at 65 (quoting § 4010(a)). Although § 4010(f) provides for interbank liability, the Court of Appeals read that subsection to authorize only administrative adjudication. In the Seventh Circuit's words:
+
+     "The purpose of the [EF A] Act is to require banks to make funds available to depositors quickly. Thus the
+
+
+     depositors have rights, enforceable in court, while the banks have obligations, which the Federal Reserve Board may establish by regulation and enforce in administrative proceedings." Ibid.
+
+   The Court of Appeals did not say whether its reading of the statute encompassed an ultimate role for federal courts, as judicial reviewers of the Board's administrative adjudications.
+
+   Midwest agrees with the Seventh Circuit that § 4010(a) alone describes court-enforceable EFA Act rights-rights that depositors can assert against banks. But unlike the Court of Appeals, Midwest is uncertain whether § 4010(f) authorizes administrative adjudication by the Federal Reserve Board. See Tr. of Oral Arg. 33-34. Remaining neutral on the Board's competence as a forum for resolving controversies between private parties, Midwest urges that the issue before this Court "is not whether the Board may adjudicate the interbank dispute between petitioner and respondent," but whether "the EF A Act confers on the federal district court jurisdiction to decide this dispute." Brief for Respondent 23. In Midwest's view, Congress intended interbank disputes to be resolved primarily in state rather than federal courts. Id., at 5-6.2
+
+   Both Bank One and the United States, as amicus curiae, agree with Midwest that state courts have jurisdiction over interbank check payment disputes. But Bank One and the United States maintain that §4010(f), by providing for interbank "liability" up to the amount of the check as well as "other damages" in certain cases, authorizes interbank actions for violations of liability regulations prescribed by the
+
+   2 Midwest observes that DCC §4-103, 2B U. L. A. §4-103 (1991), treats Federal Reserve Board regulations as "agreements" between participants in the check payment system; damages for violation of the terms of such agreements, Midwest further asserts, would be recoverable as a matter of state law. See, e. g., United Postal Savings Assn. v. Royal Bank MidCounty, 784 S. W. 2d 906 (Mo. App. 1990).
+
+
+   Federal Reserve Board. And they regard § 4010(d), which speaks of "[a]ny action under [§ 4010]," as instructing that suits under § 4010(f), as well as those under § 4010(a), "may be brought in any United States district court."
+
+   We hold that the District Court, in the instant case, correctly comprehended its adjudicatory authority, and that the Court of Appeals erred when it ordered dismissal of the action for lack of jurisdiction. The language of § 4010, reinforced by the title of the provision and its drafting history, impel reading both subsections (a) and (f) as authorizing claims for relief enforceable in federal court as prescribed in subsection (d).
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        IV
+
+   Section 4010 is entitled "Civil liability"; its purpose is to afford private parties a claim for relief based on violations of the statute and its implementing regulations. Subsection (a) affords a claim for relief by making banks liable to "any person other than another depository institution." It refers to both individual and class actions, and specifies the measure of damages recoverable in such actions. All agree that suits described in subsection (a) may be brought in federal court under § 4010(d).
+
+   Subsection (f) governs the area of liability not covered by subsection (a): banks' liability inter se. It authorizes the Federal Reserve Board to "impose on or allocate among depository institutions the risks of loss and liability in connection with any aspect of the [check] payment system," and states that "[l]iability under this subsection" shall be limited to the amount of the check, except in cases involving bad faith. In our view, subsection (f), like subsection (a), provides a statutory basis for claims for relief cognizable in federal court under § 4010(d). Both subsections impose civilliability for violation of the EF A Act and its implementing regulations. Though the two prescriptions are not parallel-most prominently, subsection (f) vests the Board with authority to establish the governing liability standards-
+
+
+   they serve the same key purpose: Both permit recovery of damages caused by a regulated party's failure to comply with the Act.
+
+   The drafting history of § 4010 casts some light on the discrete composition and separate placement of subsections (a) and (f). Under the versions of the statute originally passed by each House of Congress, subsection (a) encompassed actions between banks and persons other than banks, as well as interbank actions. The Conference Committee narrowed subsection (a) by excluding interbank actions, but simultaneously inserted, still under the section heading "Civilliability," a new subsection (f). Compare H. R. Rep. No. 100-52, p. 10 (1987), and S. 790, 100th Cong., 1st Sess., § 609(a) (1987), with H. R. Conf. Rep. No. 100-261, pp. 105-106 (1987).
+
+   These changes reflect recognition that interbank disputes arising out of the check payment system may be more complex than those involving banks and depositors; such disputes, therefore, may warrant regulatory standards, set by an expert agency, to fill statutory interstices. Thus, in subsection (f), Congress delegated to the Federal Reserve Board authority to establish rules allocating among depository institutions "the risks of loss and liability" relating to the payment and collection of checks. 12 U. S. C. § 4010(f). Having conferred this authority on the Board, Congress sensibly consolidated in subsection (f) aspects of § 4010 that relate to interbank disputes-liability limits as well as rulemaking authority.
+
+   Congress no doubt intended rules regarding interbank losses and liability to be developed administratively. But nothing in §4010(f)'s text suggests that Congress meant the Federal Reserve Board to function as both regulator and adjudicator in interbank controversies. Rather, subsections (f) and (d) fit a familiar pattern: agency regulates, court adjudicates. See, e. g., Securities Act of 1933, 15 U. S. C. § 77j(c) (mandating compliance with disclosure requirements established by Securities and Exchange Commission); § 77k (creat-
+
+
+   ing right of action in "any court of competent jurisdiction" for violation of those requirements). As the United States persuasively contends: "Congress left it to the Board to determine the liability standards for losses in the inter-bank payment system because of the greater complexity of that subject, and not because Congress intended to create remedies that would be adjudicated in different fora." Brief for United States as Amicus Curiae 13.
+
+   We find implausible the Court of Appeals' interpretation of § 4010, under which interbank disputes would be "handled administratively" before the Federal Reserve Board. See 30 F. 3d, at 65. Our cases have not been quick to infer agency authority to adjudicate private claims. In Coit Independence Joint Venture v. FSLIC, 489 U. S. 561 (1989), for example, we held that the Federal Savings and Loan Insurance Corporation (FSLIC) lacked statutory authority to adjudicate creditors' claims against insolvent savings and loan associations. Id., at 572. We observed in Coit, after examining the relevant statutory provisions, that "when Congress meant to confer adjudicatory authority on FSLIC it did so explicitly and set forth the relevant procedures in considerable detail." Id., at 574.
+
+   Similarly, in American Airlines, Inc. v. Wolens, 513 U. S. 219 (1995), we rejected American Airlines' argument that Congress intended the Department of Transportation (DOT) to serve as the exclusive adjudicator of air carrier contract disputes. Id., at 230-232. We noted that the DOT had "neither the authority nor the apparatus required to superintend a contract dispute resolution regime," id., at 232, and accordingly declined to "foist on the DOT work Congress has neither instructed nor funded the Department to do." Id., at 234.
+
+   As in Coit and Wolens, we find no secure signal here that Congress intended to assign to the Federal Reserve Board responsibility for the adjudication of private claims. The
+
+
+   EFA Act's civil liability section, 12 U. S. C. § 4010, does not explicitly confer adjudicatory authority on the Board, nor "set forth the relevant procedures" for resolution of private disputes. See Coit, 489 U. S., at 574.3 Section 4010, we stress, contrasts conspicuously with statutes in which Congress has given the Board adjudicatory authority. See, e. g., Bank Holding Company Act of 1956, 12 U. S. C. § 1843(c)(8) (authorizing Board to determine whether bank holding company may acquire shares in nonbanking entity); § 1848 (providing for judicial review of such determinations); cf. Commodity Exchange Act, 7 U. S. C. § 18 (specifying detailed procedures governing adjudication of private disputes by the Commodity Futures Trading Commission).
+
+   Finally, we note that the interpretation of § 4010 offered by Bank One and the United States is a sensible one. All check-related claims arising out of the same transaction may be brought in a single forum-either in federal court (which would have supplemental jurisdiction over state-law claims, see 28 U. S. C. § 1367), or in state court. The reading of the statute proposed by the Seventh Circuit, in contrast, would yield an incoherent jurisdictional scheme. Bank-depositor claims would be adjudicated in one forum (state or federal court), while interbank claims under the EFA Act would originate in another (before the Federal Reserve Board). And interbank claims under state law would presumably have to be raised in a separate state-court proceeding. Even if the text of § 4010 could plausibly be read to create
+
+   3 The Court of Appeals cited 12 U. S. C. § 4009(c)(1) as a potential source of the Board's authority to adjudicate private disputes. First Illinois Bank & Trust v. Midwest Bank & Trust Co., 30 F.3d 64,65 (CA7 1994). But as the United States points out, that section merely authorizes the Board to use traditional administrative enforcement tools in securing compliance with the EFA Act. Brief for United States as Amicus Curiae 19. Section 4009(c) "does not create any mechanism for the adjudication of inter-bank civil liability claims." Id., at 19-20.
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              STEVENS, J., concurring
+
+   this decidedly inefficient jurisdictional scheme, we would hesitate to attribute such a design to Congress.4
+
+
+   For the reasons stated, the judgment of the Court of Appeals for the Seventh Circuit is reversed, and the case is remanded for further proceedings consistent with this opinion.
+
+   It is so ordered.

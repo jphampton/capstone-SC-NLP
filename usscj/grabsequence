@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -e
+
+i=$1
+
+while [ $i -le $2 ]
+do
+  echo "grabbing volume $i ..."
+  ./grabvol $i
+  i=`expr $i + 1`
+done
+

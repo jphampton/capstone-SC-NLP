@@ -1,0 +1,266 @@
+#!/bin/sh
+
+set -e
+
+# Figure out the case docket number from the url.
+# Adding LC_ALL=C for mac compatibility
+casenum=`echo $2 | LC_ALL=C sed -e "s/.*\/\([a-z0-9\-]*\)\/$/\1/"`
+#echo $mynum
+echo "LINK: $2"
+echo "CASENUM: $casenum"
+thefile=volume$1/rawcase$1-$casenum
+
+
+# Download volume $1, case url $2.
+# echo "checking url..."
+#curl -sI $2/case.html > jph.html
+#curl -sI $2/opinion.html > jph-opinion.html
+#curl -sI $2opinion3.html > jph-opinion3.html
+#if ! grep -q "Location:" ./jph.html
+#   then
+#     echo "case.html was GOOD"
+#     lynx -dump -nolist -width=99999 $2/case.html > $thefile
+# #elif ! grep -q "Location:" ./jph-opinion.html
+#   then
+#     echo "opinion.html was GOOD"
+#     lynx -dump -nolist -width=99999 $2/opinion.html > $thefile
+# #elif ! grep -q "Location:" ./jph-opinion3.html
+#   then
+#     echo "opinion3.html was GOOD"
+#     lynx -dump -nolist -width=99999 $2opinion3.html > $thefile
+# else
+echo "trying DEFAULT html"
+lynx -dump -nolist -width=99999 $2 > $thefile
+#
+# fi
+# rm -f ./jph.html
+# rm -f ./jph-opinion.html
+# rm -f ./jph-opinion3.html
+# then
+#   echo "CASE.HTML"
+#   lynx -dump -nolist -width=99999 $2/case.html > $thefile
+# elif ! curl -sI $2/opinion.html 2>&1 | grep "Location: "
+# then
+#   echo "OPINION.HTML"
+#   lynx -dump -nolist -width=99999 $2/opinion.html > $thefile
+# else
+#   echo "OPINION3.HTML"
+#   lynx -dump -nolist -width=99999 $2/opinion3.html > $thefile
+# fi
+#
+# lynx -dump -nolist file://`pwd`/tmp.html > $thefile
+
+# ORIGINAL SCRAPING LOGIC:
+# if test -n "$USECURL"
+# then
+#
+#   rm -f ./tmp.html
+#   echo "USING CURL!"
+#   curl -s $2/case.html > tmp.html
+#   lynx -dump -nolist file://`pwd`/tmp.html > $thefile
+#
+# else
+#   echo "No Curl"
+#   lynx -dump -nolist -width=99999 $2/case.html > $thefile
+# fi
+
+#TODO: check for second instance of topstring.  We're still grabbing summaries
+# when we should only be grabbing opinion text.
+curiamstring="^ *PER CURIAM\.$"
+# topstring1="J[Uu][Ss][Tt][Ii][Cc][Ee] .*delivered the opinion of the [Cc]ourt"
+topstring00="^ *announced the judgment of the [Cc]ourt"
+topstring0="^ *delivered the opinion of the [Cc]ourt\.$"
+topstring1="delivered the opinion of the [Cc]ourt\."
+topstring1b="delivered the opinion of the [Cc]ourt,"
+topstring2="announced the judgment of the [Cc]ourt"
+topstring3="delivered the opinion of the [Cc]ourt as follows:"
+topstring4="proceeded to deliver the opinion of the [Cc]ourt\."
+topstring5="delivered the opinion for the [Cc]ourt\."
+topstring6="^   MR\. JUSTICE "
+topstring7="^   MR\. CHIEF JUSTICE "
+bottomstring1="It is so ordered\."
+bottomstring11="So ordered\."
+bottomstring2="^ *Affirmed"
+bottomstring3="^ *Reversed"
+bottomstring4="^ *Decree affirmed"
+bottomstring5="^ *Decree reversed"
+bottomstring6="^ *Judgment affirmed"
+bottomstring7="^ *Judgment reversed"
+bottomstring8="^ *Vacated  and remanded"
+bottomstring9="^ *Reversed and remanded"
+bottomstring98="Google _________________"
+bottomstring99="^   Connect with Justia"
+
+
+# Check for case "top":
+
+if grep -qi "$curiamstring" $thefile
+then
+  (grep -A 999999 "[Pp][Ee][Rr] [Cc][Uu][Rr][Ii][Aa][Mm]\." < $thefile) \
+       > volume$1/curiam/plaincur$1-$casenum
+  if grep -q "$bottomstring1" volume$1/curiam/plaincur$1-$casenum
+  then
+   (LC_ALL=C sed "/$bottomstring1/q" volume$1/curiam/plaincur$1-$casenum) \
+  	> volume$1/curiam/fullcur$1-$casenum
+    rm -f volume$1/curiam/plaincur$1-$casenum
+    rm -f $thefile
+  fi
+rm -f $thefile
+exit 1
+elif grep -q "$topstring00" $thefile
+then
+  # Broken first line.
+  (grep -A 999999 -B 1 "$topstring00" < $thefile) \
+       > volume$1/tmp$1-$casenum
+  # Join the first two lines into one.
+  # Adding LC_ALL=C for mac compatibility
+  (head -1 volume$1/tmp$1-$casenum | tr \\012 ' '; LC_ALL=C sed 1d volume$1/tmp$1-$casenum) \
+		> volume$1/topcase$1-$casenum
+  rm -f volume$1/tmp$1-$casenum
+elif grep -q "$topstring0" $thefile
+then
+  # Broken first line.
+  (grep -A 999999 -B 1 "$topstring0" < $thefile) \
+       > volume$1/tmp$1-$casenum
+  # Join the first two lines into one.
+  # Adding LC_ALL=C for mac compatibility
+  (head -1 volume$1/tmp$1-$casenum | tr \\012 ' '; LC_ALL=C sed 1d volume$1/tmp$1-$casenum) \
+		> volume$1/topcase$1-$casenum
+  rm -f volume$1/tmp$1-$casenum
+
+elif grep -qi "$topstring1" $thefile
+then
+  # Original
+  (grep -i -A 999999 "$topstring1" < $thefile) \
+    > volume$1/topcase$1-$casenum
+
+
+# elif (grep -q "$topstring1b" $thefile) && (test $1 -lt 100)
+elif grep -q "$topstring1b" $thefile
+then
+  (grep -A 999999 "$topstring1b" < $thefile) \
+       > volume$1/topcase$1-$casenum
+
+elif grep -q "$topstring2" $thefile
+then
+  echo "Found top!"
+  (tail -r < $thefile | grep -B 999999 -m 1 "$topstring2" | tail -r) > volume$1/topcase$1-$casenum
+  echo "Dealt with top!"
+elif grep -q "$topstring3" $thefile
+then
+  (grep -A 999999 "$topstring3" < $thefile) \
+       > volume$1/topcase$1-$casenum
+
+elif grep -q "$topstring4" $thefile
+then
+  (grep -A 999999 "$topstring4" < $thefile) \
+       > volume$1/topcase$1-$casenum
+
+elif grep -q "$topstring5" $thefile
+then
+  (grep -A 999999 "$topstring5" < $thefile) \
+       > volume$1/topcase$1-$casenum
+
+elif grep -q "$topstring6" $thefile
+then
+  (grep -A 999999 "$topstring6" < $thefile) \
+       > volume$1/topcase$1-$casenum
+
+elif grep -q "$topstring7" $thefile
+then
+  (grep -A 999999 "$topstring7" < $thefile) \
+       > volume$1/topcase$1-$casenum
+
+else
+  echo "WARNING: $thefile is topless"
+  mv -f $thefile volume$1/topless
+  rm -f volume$1/topcase$1-$casenum
+  exit 1
+
+fi
+
+# Check for case "bottom":
+# Adding LC_ALL=C for mac compatibility
+
+if grep -q "$bottomstring1" volume$1/topcase$1-$casenum
+then
+  (LC_ALL=C sed "/$bottomstring1/q" volume$1/topcase$1-$casenum) \
+	> volume$1/fullcase$1-$casenum
+elif grep -q "$bottomstring11" volume$1/topcase$1-$casenum
+then
+  (LC_ALL=C sed "/$bottomstring11/q" volume$1/topcase$1-$casenum) \
+  > volume$1/fullcase$1-$casenum
+
+elif grep -q "$bottomstring2" volume$1/topcase$1-$casenum
+then
+  (LC_ALL=C sed "/$bottomstring2/q" volume$1/topcase$1-$casenum) \
+	> volume$1/fullcase$1-$casenum
+
+elif grep -q "$bottomstring3" volume$1/topcase$1-$casenum
+then
+  (LC_ALL=C sed "/$bottomstring3/q" volume$1/topcase$1-$casenum) \
+	> volume$1/fullcase$1-$casenum
+
+elif grep -q "$bottomstring4" volume$1/topcase$1-$casenum
+then
+  (LC_ALL=C sed "/$bottomstring4/q" volume$1/topcase$1-$casenum) \
+	> volume$1/fullcase$1-$casenum
+
+elif grep -q "$bottomstring5" volume$1/topcase$1-$casenum
+then
+  (LC_ALL=C sed "/$bottomstring5/q" volume$1/topcase$1-$casenum) \
+	> volume$1/fullcase$1-$casenum
+
+elif grep -q "$bottomstring6" volume$1/topcase$1-$casenum
+then
+  (LC_ALL=C sed "/$bottomstring6/q" volume$1/topcase$1-$casenum) \
+	> volume$1/fullcase$1-$casenum
+
+elif grep -q "$bottomstring7" volume$1/topcase$1-$casenum
+then
+  (LC_ALL=C sed "/$bottomstring7/q" volume$1/topcase$1-$casenum) \
+	> volume$1/fullcase$1-$casenum
+
+elif grep -q "$bottomstring8" volume$1/topcase$1-$casenum
+then
+  (LC_ALL=C sed "/$bottomstring8/q" volume$1/topcase$1-$casenum) \
+	> volume$1/fullcase$1-$casenum
+
+elif grep -q "$bottomstring9" volume$1/topcase$1-$casenum
+then
+  (LC_ALL=C sed "/$bottomstring9/q" volume$1/topcase$1-$casenum) \
+	> volume$1/fullcase$1-$casenum
+
+elif grep -q "$bottomstring98" volume$1/topcase$1-$casenum
+then
+  (LC_ALL=C sed "/$bottomstring98/q" volume$1/topcase$1-$casenum) \
+	| LC_ALL=C sed -e '$d' \
+	> volume$1/fullcase$1-$casenum
+
+elif grep -q "$bottomstring99" volume$1/topcase$1-$casenum
+then
+  (LC_ALL=C sed "/$bottomstring99/q" volume$1/topcase$1-$casenum) \
+	| LC_ALL=C sed -e '$d' \
+	> volume$1/fullcase$1-$casenum
+
+else
+  echo "WARNING: $thefile is bottomless"
+  mv -f $thefile volume$1/bottomless
+  rm -f volume$1/topcase$1-$casenum
+  exit 1
+fi
+
+# Clean up the case:
+# Adding LC_ALL=C for mac compatibility
+cat volume$1/fullcase$1-$casenum \
+	| LC_ALL=C sed "/Page\ $1\ U\.\ S\.\ /d" \
+	| LC_ALL=C sed -e '/^ *I*I$/d' \
+	| LC_ALL=C sed -e '/^ *[0-9]*[0-9]$/d' \
+	| LC_ALL=C sed -e '/^ *_*_$/d' \
+	| LC_ALL=C sed -e '/^ *\**\*$/d' \
+	> volume$1/thecase$1-$casenum
+
+# Wrap up:
+
+rm -f $thefile volume$1/topcase$1-$casenum volume$1/fullcase$1-$casenum
+rm -f volume$1/second$1-$casenum

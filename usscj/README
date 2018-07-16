@@ -1,0 +1,240 @@
+
+
+  EXPLANATION OF THE SOFTWARE AT:  http://probability.ca/usscj/
+
+
+SUMMARY:
+
+This directory contains various computer programs used during the writing
+of the research paper "Detecting Multiple Authorship of United States
+Supreme Court Legal Decisions Using Function Words", by J.S. Rosenthal
+and A. Yoon (2009), to appear in Annals of Statistics, available at:
+
+	http://probability.ca/jeff/research.html
+
+The software automatically downloads and sorts plain-text versions
+of United States Supreme Court decisions, using the Justia source
+provided at supreme.justia.com.
+
+It then performs various statistical analyses on the text of these
+decisions, including the frequency of various "function words" and more.
+
+The programs are designed for use only on linux/unix/Mac machines.
+
+All programs in this directory are Copyright (c) 2010 by Jeffrey
+S. Rosenthal, and are licensed for general copying, distribution
+and modification according to the GNU General Public License
+(http://www.gnu.org/copyleft/gpl.html).
+
+
+TO PREPARE TO USE THIS SOFTWARE:
+
+First, on your own linux/unix/Mac computer, make sure you have "cc" and
+"lynx" installed.  ("cc" or "gcc" is the C compiler; on linux/unix it
+should come pre-loaded, but for Mac you might need to install the Xcode
+package from developer.apple.com/tools/xcode.  "lynx" is a plain-text web
+browser, widely available for free download, just Google "lynx browser".)
+
+Then, open a Unix shell window (on Mac, use the "Terminal" application).
+
+Then, create and move to a new directory (folder), e.g. "usscj":
+
+	mkdir usscj
+	cd usscj
+
+Then, download and run the software's INSTALL file, e.g. by typing:
+
+	lynx -source http://probability.ca/usscj/INSTALL > INSTALL
+	chmod +x INSTALL
+	./INSTALL
+
+(This may take a few minutes, as it downloads and installs all the needed
+software to enable you to download and analysis USSC decisions.)
+
+You are now ready to begin!
+
+
+SPECIAL LYNX NOTE: It seems that sometimes (e.g. in Mac OS) the command
+"lynx" cannot handle the https interface, which Justia now uses.
+If so, then first make sure "curl" is installed, and type either
+"setenv USECURL true" (in csh or tcsh) or "export USECURL=true"
+(in sh or bash), to use "curl" for the Justia downloads instead.
+(Here "lynx" is still required, to decode the resulting html files.)
+
+
+USING THIS SOFTWARE:
+
+From within that same "usscj" directory, proceed as follows.
+
+First, type "grabvol" followed by a volume number to automatically
+download as plain text (removing extraneous header and footer text),
+and sort (by author), all of the majority decisions in that volume:
+
+	./grabvol 541
+	./grabvol 456
+	(etc.)
+
+Or, use "grabsequence" to download an entire sequence of volumes at
+once, e.g. to download all volumes from 480 to 520 inclusive, type:
+
+	./grabsequence 480 520
+
+You can then perform statistical analysis on all downloaded decisions
+authored by a given justice, using "textvarit":
+
+	./textvarit BREYER
+	./textvarit SCALIA
+	(etc.)
+
+You can also perform various bootstrap comparisons.  For example,
+to bootstrap compare decisions written by two different justices, use
+"comptwo":
+
+	./comptwo BREYER SCALIA
+	(etc.)
+
+
+MULTIPLE JUSTICES WITH THE SAME SURNAME:
+
+There are nine pairs of USSC justices with the same surname, e.g. Owen
+J. Roberts (1930-1945, volumes 280-326) and John G. Roberts (2005-present,
+volumes 543-present).  In such cases, the earlier justice gets a "1"
+appended to their surname.  So, for example, to refer to John G. Roberts
+use "ROBERTS", but to refer to Owen J. Roberts use "ROBERTS1".
+
+
+VOLUME-SPECIFIC ANALYSIS:
+
+There are also commands to perform statistical analysis on decisions by
+given justices for just certain USSC volume numbers.  (This could be
+used to e.g. compare a justice's early decisions to his/her own later
+decisions, or to compare two justices over a certain specific time
+period, or to examine a justice's decisions for volumes early in USSC
+sessions, etc.)
+
+To use this feature, create one or more files consisting solely of lists
+of volume numbers that you want to isolate, e.g. create a file (named
+"vollist1", say) consisting solely of the text:
+
+	481 482 500
+
+For example, one simple way to create that file is with a command like:
+
+	echo 481 482 500 > vollist1
+
+Then, to e.g. analyse all of Scalia's decisions for just volumes 481, 482,
+and 500 only, type:
+
+	./textvarvols vollist1 SCALIA
+
+Or, to compare Scalia's and Stevens' decisions for just those same three
+volumes, type:
+
+	./comptwovols vollist1 SCALIA vollist1 STEVENS
+
+Or, to compare Scalia's decisions in those three volumes, to Scalia's
+decisions in volumes 500, 512, 520, and 526, instead first create a
+second file named "vollist2" consisting solely of the text:
+
+	500 512 520 526
+
+and then type:
+
+	./comptwovols vollist1 SCALIA vollist2 SCALIA
+
+To include ALL justices for certain volumes, use "-" as the justice name:
+
+	./textvarvols vollist1 -
+	./comptwovols vollist1 - vollist2 -
+	./comptwovols vollist1 - vollist2 SCALIA
+	(etc.)
+
+A short-cut to directly create a volume list file (e.g. "vollist1")
+containing all volumes in a sequence (e.g. 342 through 375) is:
+
+	./createvollist 342 375 vollist1
+
+
+LOG FILES FOR LISTS OF JUSTICES AND VOLUME RANGES:
+
+A short-cut to producing basic statistical information (#words/file,
+and V4) for each of an entire list of justices is provided as follows.
+First create a plain-text file containing a list of justices, e.g. with:
+
+	echo SCALIA KENNEDY > namelist1
+
+Then, to compute and save each justice's basic statistical information
+to a log file (e.g. to the file "mylogfile"), type:
+
+	textvarlog namelist1 mylogfile
+
+You can also use commands like:
+
+        ./justrange STEVENS f
+
+to run textvar on the first five years' of STEVENS opinions.  The name
+can be any justice who has already reached 65 years of age, and the final
+letter can be 'f' for "first five years", or 'l' for "last five years",
+or 'y' for "young" (i.e. age < 65), or 'o' for "old" (i.e. age > 65).
+You can also use commands like:
+
+        ./justrangelog namelist outputfile
+
+to get it to cycle through all the justice names in the file "namelist",
+and output to the file "outputfile" the results of textvarit plus all
+four "justrange" tests (plus f-l and y-o bootstrap tests), on each of
+the justices named in the file.
+
+Or, use a command like:
+
+	./decaderun SCALIA
+
+to get the basic output for a justice on a decade-by-decade basis (or
+replace "SCALIA" by "-" to include all justices).  Or, use:
+
+	./volrun SCALIA
+
+for volume-by-volume analysis, or:
+
+	./yearlyrun SCALIA
+
+for year-by-year analysis (from 1870 onward), or:
+
+	./sessionlyrun SCALIA
+
+for session-by-session analysis (from 1870-1871 onward).
+
+
+AUTHORSHIP IDENTIFICATION:
+
+We also provide software for identifying authorship of cases based on
+function word patterns from other cases.
+
+To perform a cross-validation test of a naive Bayes classifier for
+determining which of two justices authored a decision, use "naivebayesit":
+
+        naivebayesit KENNEDY SCALIA
+        (etc.)
+
+Or, to perform a cross-validation test of a linear classifier for
+determining which of two justices authored a decision, use "lindiscit":
+
+        lindiscit KENNEDY SCALIA
+        (etc.)
+
+(Note that the matrix inversion required for the linear classifier may
+fail if too few cases have been downloaded.)
+
+Or, to see which judgment in a collection is the biggest "outlier"
+(i.e. the most likely to have a different authorship from all the others),
+use "outlierit", e.g. to try to pick out the single early judgment
+volume8/thecase8-172 from all of Justice Scalia's judgments, type:
+
+	outlierit volume*/SCALIA/thecase* volume8/thecase8-172
+
+
+You may contact me with questions.
+
+ -- Jeffrey Rosenthal, jeff@math.toronto.edu, http://probability.ca/jeff/
+
+

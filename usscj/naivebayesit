@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set -e
+
+./textvar volume*/$1/thecase*
+
+mv -f thefracs thefracs$1
+
+./textvar volume*/$2/thecase*
+
+mv -f thefracs thefracs$2
+
+./naivebayes thefracs$1 thefracs$2
+

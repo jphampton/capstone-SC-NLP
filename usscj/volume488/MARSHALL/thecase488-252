@@ -1,0 +1,133 @@
+   JUSTICE MARSHALL delivered the opinion of the Court.
+
+   In this appeal, we must decide whether a tax on interstate telecommunications imposed by the State of Illinois violates the Commerce Clause. We hold that it does not.
+
+
+   A
+
+   These cases come to us against a backdrop of massive technological and legal changes in the telecommunications industry. [Footnote 1] Years ago, all interstate telephone calls were relayed through electric wires and transferred by human operators working switchboards. Those days are past. Today, a computerized network of electronic paths transmits thousands of electronic signals per minute through a complex system of microwave radios, fiber optics, satellites and cables. DOJ
+
+
+   Report 1.2-1.6, 1.8; Brief for MCI Telecommunications Corporation as Amicus Curiae 2. When fully connected, this network offers billions of paths from one point to another. DOJ Report 1.18. When a direct path is full or not working efficiently, the computer system instantly activates another path. Signals may even change paths in the middle of a telephone call without perceptible interruption. Brief for National Conference of State Legislatures et al. as Amici Curiae 6. Thus, the path taken by the electronic signals is often indirect, and typically bears no relation to state boundaries. [Footnote 2] The number of possible paths, the nature of the electronic signals, and the system of computerized switching make it virtually impossible to trace and record the actual paths taken by the electronic signals which create an individual telephone call.
+
+   The explosion in new telecommunications technologies and the breakup of the AT&T monopoly [Footnote 3] has led a number of States to revise the taxes they impose on the telecommunications industry. [Footnote 4] In 1985, Illinois passed the Illinois
+
+
+   Telecommunications Excise Tax Act (Tax Act), Ill.Rev.Stat., ch. 120, &#2013266086;&#2013266086; 2001-2021 (1987). The Tax Act imposes a 5% tax on the gross charge of interstate telecommunications (1) originated or terminated in Illinois, &#2013266086; 2004, § 4 (hereinafter § 4) [Footnote 5] and (2) charged to an Illinois service address, regardless of where the telephone call is billed or paid. &#2013266086; 2002, §§ 2(a) and (b). [Footnote 6] The Tax Act imposes an identical 5% tax on intrastate telecommunications. &#2013266086; 2004, § 3. In order to prevent "actual multi-state taxation," the Tax Act provides a credit to any taxpayer upon proof that the taxpayer has paid a tax in another State on the same telephone call which triggered the Illinois tax. &#2013266086; 2004, § 4. To facilitate collection, the Tax Act
+
+
+   requires telecommunications retailers, like appellant GTE Sprint Communications Corporation (Sprint), to collect the tax from the consumer who charged the call to his service address. &#2013266086; 2005, § 5.
+
+   A
+
+   Eight months after the Tax Act was passed, Jerome Goldberg and Robert McTigue, Illinois residents who are subject to and have paid telecommunications taxes through their retailers, filed a class action complaint in the Circuit Court of Cook County, Illinois. They named as defendants J. Thomas Johnson, Director of the Department of Revenue for the State of Illinois, (Director), [Footnote 7] and various long-distance telephone carriers, including Sprint. The complaint alleged that § 4 of the Tax Act violates the Commerce Clause of the United States Constitution. [Footnote 8] Sprint cross-claimed against the Director, seeking a declaration that the Tax Act is unconstitutional under the Commerce Clause. The Director then filed a motion for summary judgment against Sprint and the other long-distance carriers. Sprint responded with a motion for summary judgment against the Director; Goldberg and McTigue, in turn, filed their own motion for summary judgment against both the Director and Sprint.
+
+   After briefing and a hearing, the trial court declared § 4 unconstitutional. It found that Complete Auto Transit, Inc. v. Brady, 430 U. S. 274 (1977), and its progeny, control this litigation. Under the four-pronged test originated in Complete Auto, a state tax will withstand scrutiny under the Commerce Clause if
+
+   "the tax is applied to an activity with a substantial nexus with the taxing State, is fairly apportioned, does not discriminate against interstate commerce, and is fairly related to the services provided by the State.
+
+
+   Id. at 430 U. S. 279. [Footnote 9] In the view of the trial court, the Tax Act did not satisfy the last three prongs of the Complete Auto test because:"
+
+   "Illinois is attempting to tax the entire cost of an interstate act which takes place only partially in Illinois. This tax by its own terms is not fairly apportioned. It discriminates against interstate commerce, and it is not related to services provided in Illinois. For all of these reasons, the Act must fail."
+
+   Goldberg v. Johnson, No. 85 CH 8081 (Cook County, Oct. 21, 1986), App. to Juris. Statement in No. 87-826, p. 24a.
+
+   The Illinois Supreme Court reversed, Goldberg v. Johnson, 117 Ill.2d 493, 612 N.E.2d 1262 (1987) (per curiam), despite its finding that the tax is "not an apportioned tax" because it "applies to the entirety of each and every interstate telecommunication." Id. at 501, 512 N.E.2d at 1266. The court reasoned that an unapportioned tax is "constitutionally suspect" because of the risk of multiple taxation, ibid., but decided that the Tax Act adequately avoided this danger. With respect to interstate calls originating in Illinois, the court noted that no other State could levy a tax on such calls. Id. at 602, 512 N.E.2d at 1266. As for calls terminating in Illinois and charged to an Illinois service address, the court found that, even though the tax created "a real risk of multiple taxation," id. at 502, 512 N.E.2d at 1267, [Footnote 10] that risk was eliminated by § 4's credit provision. Id. at 503, 512 N.E.2d at 1267.
+
+   As for discrimination, the third prong of the Complete Auto test, the court held that the Tax Act is constitutionally valid, since a 5% tax is imposed on intrastate as well as interstate
+
+
+   telecommunications. Turning to the fourth prong, the court held that the tax is fairly related to services provided by Illinois. The court explained that Illinois provided services and other benefits with respect to that portion of an interstate call occurring within the State, and that
+
+   "the benefits afforded by other States in facilitating the same interstate telecommunication are too speculative to override the substantial benefits extended by Illinois."
+
+   Id. at 504, 512 N.E.2d at 1267.
+
+   Having found that the Tax Act satisfied the requirements of Complete Auto, the Illinois Supreme Court concluded that it did not violate the Commerce Clause. Sprint, Goldberg, and McTigue appealed to this Court. We noted probable jurisdiction, 484 U.S. 1057 (1988), and now affirm.
+
+
+   A
+
+   This Court has frequently had occasion to consider whether state taxes violate the Commerce Clause. The wavering doctrinal Lines of our pre-Complete Auto cases reflect the tension between two competing concepts: the view that interstate commerce enjoys a "free trade" immunity from state taxation and the view that businesses engaged in interstate commerce may be required to pay their own way. Complete Auto, supra, at 430 U. S. 278-279; see also American Trucking Assns., Inc. v. Scheiner, 483 U. S. 266, 483 U. S. 281, 483 U. S. 282, nn. 12, 13 (1987); Commonwealth Edison Co. v. Montana, 453 U. S. 609, 453 U. S. 645 (1981) (BLACKMUN, J., dissenting). Complete Auto sought to resolve this tension by specifically rejecting the view that the States cannot tax interstate commerce, while at the same time placing limits on state taxation of interstate commerce. 430 U.S. at 430 U. S. 288; see also Commonwealth Edison Co., supra, at 453 U. S. 645. [Footnote 11] Since the Complete Auto decision, we have
+
+
+   applied its four-pronged test on numerous occasions. [Footnote 12] We now apply it to the Illinois tax.
+
+   B
+
+   As all parties agree that Illinois has a substantial nexus with the interstate telecommunications reached by the Tax Act, we begin our inquiry with apportionment, the second prong of the Complete Auto test. Appellants argue that the telecommunications tax is not fairly apportioned because Illinois taxes the gross charge of each telephone call. They interpret our prior cases, specifically Michigan-Wisconsin Pipe Line Co. v. Calvert, 347 U. S. 157 (1954), Central Greyhound Lines, Inc. v. Mealey, 334 U. S. 653 (1948), and Western Live Stock v. Bureau of Revenue, 303 U. S. 250 (1938), to require Illinois to tax only a fraction of the gross charge of each telephone call based on the miles which the electronic signals traveled within Illinois as a portion of the total miles traveled. The Director, in turn, argues that Illinois apportions its telecommunications tax by carefully limiting the type of interstate telephone calls which it reaches.
+
+   In analyzing these contentions, we are mindful that the central purpose behind the apportionment requirement is to
+
+
+   ensure that each State taxes only its fair share of an interstate transaction. See, e.g., Container Corp. of America v. Franchise Tax Bd., 463 U. S. 159, 463 U. S. 169 (1983). But "we have long held that the Constitution imposes no single [apportionment] formula on the States," id. at 463 U. S. 164, and therefore have declined to undertake the essentially legislative task of establishing a "single constitutionally mandated method of taxation." Id. at 463 U. S. 171; see also Moorman Mfg. Co. v. Bair, 437 U. S. 267, 437 U. S. 278-280 (1978). Instead, we determine whether a tax is fairly apportioned by examining whether it is internally and externally consistent. Scheiner, supra, at 483 U. S. 285; Armco Inc. v. Hardesty, 467 U. S. 638, 467 U. S. 644 (1984); Container Corp., supra, at 463 U. S. 169-170.
+
+   To be internally consistent, a tax must be structured so that, if every State were to impose an identical tax, no multiple taxation would result. 463 U.S. at 463 U. S. 169. Thus, the internal consistency test focuses on the text of the challenged statute and hypothesizes a situation where other States have passed an identical statute. We conclude that the Tax Act is internally consistent, for if every State taxed only those interstate phone calls which are charged to an in-state service address, only one State would tax each interstate telephone call.
+
+   Appellant Sprint argues that our decision in Armco dictates a different standard. It contends that, under Armco, a court evaluating the internal consistency of a challenged tax must also compare the tax to the similar, but not identical, taxes imposed by other States. Sprint misreads Armco. If we were to determine the internal consistency of one State's tax by comparing it with slightly different taxes imposed by other States, the validity of state taxes would turn solely on "the shifting complexities of the tax codes of 49 other States." Armco, supra, at 467 U. S. 645; see also Moorman, supra, at 437 U. S. 277, n. 12. In any event, to the extent that other States have passed tax statutes which create a risk of multiple taxation,
+
+
+   we reach that issue under the external consistency test, to which we now turn.
+
+   The external consistency test asks whether the State has taxed only that portion of the revenues from the interstate activity which reasonably reflects the in-state component of the activity being taxed. Container Corp., supra, at 463 U. S. 169-170. We thus examine the in-state business activity which triggers the taxable event and the practical or economic effect of the tax on that interstate activity. Appellants first contend that any tax assessed on the gross charge of an interstate activity cannot reasonably reflect in-state business activity, and therefore must be unapportioned. The Director argues that, because the Tax Act has the same economic effect as a sales tax, it can be based on the gross charge of the telephone call. See, e.g., McGoldrick v. Berwind-White Coal Mining Co., 309 U. S. 33, 309 U. S. 58 (1940) (sales tax); cf. D. H. Holmes Co. v. McNamara, 486 U. S. 24, 486 U. S. 31-32 (1988) (use tax); Tyler Pipe Industries, Inc. v. Washington Dept. of Revenue, 483 U. S. 232, 483
+   U. S. 251 (1987) (gross receipts).
+
+   We believe that the Director has the better of this argument. The tax at issue has many of the characteristics of a sales tax. It is assessed on the individual consumer, collected by the retailer, and accompanies the retail purchase of an interstate telephone call. Even though such a retail purchase is not a purely local event, since it triggers simultaneous activity in several States, cf. McGoldrick, supra, at 309 U. S. 58, the Tax Act reasonably reflects the way that consumers purchase interstate telephone calls.
+
+   The Director further contends that the Illinois telecommunications tax is fairly apportioned, because the Tax Act reaches only those interstate calls which are (1) originated or terminated in Illinois and (2) charged to an Illinois service address. Appellants Goldberg and McTigue, by contrast, raise the specter of many States assessing a tax on the gross charge of an interstate telephone call. Appellants have exaggerated the extent to which the Tax Act creates a risk of
+
+
+   multiple taxation. We doubt that States through which the telephone call's electronic signals merely pass have a sufficient nexus to tax that call. See United Air Lines, Inc. v. Mahin, 410 U. S. 623, 410 U. S. 631 (1973) (State has no nexus to tax an airplane based solely on its flight over the State); Northwest Airlines, Inc. v. Minnesota, 322 U. S. 292, 322 U. S. 302-304 (1944) (Jackson, J., concurring) (same). We also doubt that termination of an interstate telephone call, by itself, provides a substantial enough nexus for a State to tax a call. See National Bellas Hess, Inc. v. Department of Revenue of Illinois, 386 U. S. 753 (1967) (receipt of mail provides insufficient nexus).
+
+   We believe that only two States have a nexus substantial enough to tax a consumer's purchase of an interstate telephone call. The first is a State like Illinois which taxes the origination or termination of an interstate telephone call charged to a service address within that State. The second is a State which taxes the origination or termination of an interstate telephone call billed or paid within that State. See, e.g., Ark.Code Ann. § 26-62-301(3) (Supp.1987); Wash.Rev.Code § 82.04.065(2) (1987).
+
+   We recognize that, if the service address and billing location of a taxpayer are in different States, some interstate telephone calls could be subject to multiple taxation. [Footnote 13] This
+
+
+   limited possibility of multiple taxation, however, is not sufficient to invalidate the Illinois statutory scheme. See Container Corp., 463 U.S. at 463 U. S. 171; Moorman, 437 U.S. at 437 U. S. 272-273. To the extent that other States' telecommunications taxes pose a risk of multiple taxation, the credit provision contained in the Tax Act operates to avoid actual multiple taxation. D. H. Holmes, supra, at 486 U. S. 31 ("The . . . taxing scheme is fairly apportioned, for it provides a credit against its use tax for sales taxes that have been paid in other States"); see also Tyler Pipe, supra, at 483 U. S. 245, n. 13.
+
+   It should not be overlooked, moreover, that the external consistency test is essentially a practical inquiry. In previous cases, we have endorsed apportionment formulas based upon the miles a bus, train, or truck traveled within the taxing State. [Footnote 14] But those cases all dealt with the movement of large physical objects over identifiable routes, where it was practicable to keep track of the distance actually traveled within the taxing State. See, e.g., Central Greyhound, 334 U.S. at 334 U. S. 663 ("There is no dispute as to feasibility in apportioning this tax"); see also Western Live Stock, 303 U.S. at 303 U. S. 257. These cases, by contrast, involve the more intangible movement of electronic impulses through computerized networks. An apportionment formula based on mileage or some other geographic division of individual telephone calls would produce insurmountable administrative and technological barriers.
+
+
+   See Scheiner, 483 U.S. at 483 U. S. 296 (apportionment does not require State to adopt a tax which would "pose genuine administrative burdens"). [Footnote 15] We thus find it significant that Illinois' method of taxation is a realistic legislative solution to the technology of the present-day telecommunications industry. [Footnote 16]
+
+   In sum, we hold that the Tax Act is fairly apportioned. Its economic effect is like that of a sales tax, the risk of multiple taxation is low, and actual multiple taxation is precluded by the credit provision. Moreover, we conclude that mileage or some other geographic division of individual telephone calls would be infeasible.
+
+   C
+
+   We turn next to the third prong of the Complete Auto test, which prohibits a State from imposing a discriminatory tax on interstate commerce. Appellants argue that, irrespective of the identical 5% tax on the gross charge of intrastate telephone calls, the Tax Act discriminates against interstate commerce by allocating a larger share of the tax burden to interstate telephone calls. They rely on Scheiner, where we
+
+
+   stated that,
+
+   "[i]n its guarantee of a free trade area among the States, . . . the Commerce Clause has a deeper meaning that may be implicated even though state provisions . . . do not allocate tax burdens between insiders and outsiders in a manner that is facially discriminatory."
+
+   Scheiner, supra at 483 U. S. 281.
+
+   In Scheiner, we held that Pennsylvania's flat taxes on the operation of all trucks on Pennsylvania highways imposed a disproportionate burden on interstate trucks, as compared with intrastate trucks, because the interstate trucks traveled fewer miles per year on Pennsylvania highways. 483 U.S. at 483 U. S. 286. The Illinois tax differs from the flat taxes found discriminatory in Scheiner in two important ways. First, whereas Pennsylvania's flat taxes burdened out-of-state truckers who would have difficulty effecting legislative change, the economic burden of the Illinois telecommunications tax falls on the Illinois telecommunications consumer, the insider who presumably is able to complain about and change the tax through the Illinois political process. It is not a purpose of the Commerce Clause to protect state residents from their own state taxes.
+
+   Second, whereas, with Pennsylvania's flat taxes, it was possible to measure the activities within the State because truck mileage on state highways could be tallied, reported, and apportioned, the exact path of thousands of electronic signals can neither be traced nor recorded. We therefore conclude that the Tax Act does not discriminate in favor of intrastate commerce at the expense of interstate commerce.
+
+   D
+
+   Finally, we reach the fourth prong of the Complete Auto test, namely, whether the Illinois tax is fairly related to the presence and activities of the taxpayer within the State. See D. H. Holmes, 486 U.S. at 486 U. S. 32-84. The purpose of this test is to ensure that a State's tax burden is not placed upon
+
+
+   persons who do not benefit from services provided by the State. Commonwealth Edison, 453 U.S. at 453 U. S. 627.
+
+   Appellants would severely limit this test by focusing solely on those services which Illinois provides to telecommunications equipment located within the State. We cannot accept this view. The tax which may be imposed on a particular interstate transaction need not be limited to the cost of the services incurred by the State on account of that particular activity. Id. at 453 U. S. 627, n. 16. On the contrary,
+
+   "interstate commerce may be required to contribute to the cost of providing all governmental services, including those services from which it arguably receives no direct 'benefit.'"
+
+   Ibid. (emphasis in original). The fourth prong of the Complete Auto test thus focuses on the wide range of benefits provided to the taxpayer, not just the precise activity connected to the interstate activity at issue. Indeed, last Term, in D. H. Holmes, supra, at 486 U. S. 32, we noted that a taxpayer's receipt of police and fire protection, the use of public roads and mass transit, and the other advantages of civilized society, satisfied the requirement that the tax be fairly related to benefits provided by the State to the taxpayer.
+
+   In light of the foregoing, we have little difficulty concluding that the Tax Act is fairly related to the benefits received by Illinois telephone consumers. The benefits that Illinois provides cannot be limited to those exact services provided to the equipment used during each interstate telephone call. Illinois telephone consumers also subscribe to telephone service in Illinois, own or rent telephone equipment at an Illinois service address, and receive police and fire protection as well as the other general services provided by the State of Illinois.
+
+
+   For the reasons stated above, we hold that the telecommunications tax imposed by the Tax Act is consistent with the Commerce Clause. It is fairly apportioned, does not discriminate against interstate commerce, and is fairly related
+
+
+   to services which the State of Illinois provides to the taxpayer. The judgment of the Illinois Supreme Court is hereby
+
+   Affirmed.

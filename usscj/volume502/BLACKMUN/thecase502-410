@@ -1,0 +1,111 @@
+   JUSTICE BLACKMUN delivered the opinion of the Court. We are confronted in this case with an issue concerning § 506(d) of the Bankruptcy Code, 11 U. S. C. § 506(d).1 May
+
+   * Michael Fox Mivasair and Henry J. Sommer filed a brief for the Consumers Education and Protective Association, Inc., as amicus curiae urging reversal.
+
+   1 Section 506 provides in full:
+
+   "(a) An allowed claim of a creditor secured by a lien on property in which the estate has an interest, or that is subject to setoff under section 553 of this title, is a secured claim to the extent of the value of such creditor's interest in the estate's interest in such property, or to the extent of the amount subject to setoff, as the case may be, and is an unsecured claim to the extent that the value of such creditor's interest or the amount
+
+
+   a debtor "strip down" a creditor's lien on real property to the value of the collateral, as judicially determined, when that value is less than the amount of the claim secured by the lien?
+
+
+   On June 1, 1978, respondents loaned $119,000 to petitioner Aletha Dewsnup and her husband, T. LaMar Dewsnup, since deceased. The loan was accompanied by a Deed of Trust granting a lien on two parcels of Utah farmland owned by the Dewsnups.
+
+   Petitioner defaulted the following year. Under the terms of the Deed of Trust, respondents at that point could have proceeded against the real property collateral by accelerating the maturity of the loan, issuing a notice of default, and selling the land at a public foreclosure sale to satisfy the debt. See also Utah Code Ann. §§ 57-1-20 to 57-1-37 (1990 and Supp. 1991).
+
+   so subject to setoff is less than the amount of such allowed claim. Such value shall be determined in light of the purpose of the valuation and of the proposed disposition or use of such property, and in conjunction with any hearing on such disposition or use or on a plan affecting such creditor's interest.
+
+   "(b) To the extent that an allowed secured claim is secured by property the value of which, after any recovery under subsection (c) of this section, is greater than the amount of such claim, there shall be allowed to the holder of such claim, interest on such claim, and any reasonable fees, costs, or charges provided for under the agreement under which such claim arose.
+
+   "(c) The trustee may recover from property securing an allowed secured claim the reasonable, necessary costs and expenses of preserving, or disposing of, such property to the extent of any benefit to the holder of such claim.
+
+   "(d) To the extent that a lien secures a claim against the debtor that is not an allowed secured claim, such lien is void, unless-
+
+   "(1) such claim was disallowed only under section 502(b)(5) or 502(e) of this title; or
+
+   "(2) such claim is not an allowed secured claim due only to the failure of any entity to file a proof of such claim under section 501 of this title."
+
+
+   Respondents did issue a notice of default in 1981. Before the foreclosure sale took place, however, petitioner sought reorganization under Chapter 11 of the Bankruptcy Code, 11 U. S. C. § 1101 et seq. That bankruptcy petition was dismissed, as was a subsequent Chapter 11 petition. In June 1984, petitioner filed a petition seeking liquidation under Chapter 7 of the Code, 11 U. S. C. § 701 et seq. Because of the pendency of these bankruptcy proceedings, respondents were not able to proceed to the foreclosure sale. See 11 U. S. C. § 362 (1988 ed. and Supp. II).
+
+   In 1987, petitioner filed the present adversary proceeding in the Bankruptcy Court for the District of Utah seeking, pursuant to § 506, to "avoid" a portion of respondents' lien. App. 3. Petitioner represented that the debt of approximately $120,000 then owed to respondents exceeded the fair market value of the land and that, therefore, the Bankruptcy Court should reduce the lien to that value. According to petitioner, this was compelled by the interrelationship of the security-reducing provision of § 506(a) and the lien-voiding provision of § 506(d). Under § 506(a) ("An allowed claim of a creditor secured by a lien on property in which the estate has an interest ... is a secured claim to the extent of the value of such creditor's interest in the estate's interest in such property"), respondents would have an "allowed secured claim" only to the extent of the judicially determined value of their collateral. And under § 506(d) ("To the extent that a lien secures a claim against the debtor
+   that is not an allowed secured claim, such lien is void"), the court would be required to void the lien as to the remaining portion of respondents' claim, because the remaining portion was not an "allowed secured claim" within the meaning of § 506(a).
+
+   The Bankruptcy Court refused to grant this relief. In re Dewsnup, 87 B. R. 676 (1988). After a trial, it determined that the then value of the land subject to the Deed of Trust was $39,000. It indulged in the assumption that the property had been abandoned by the trustee pursuant to § 554,
+
+
+   and reasoned that once property was abandoned it no longer fell within the reach of § 506(a), which applies only to "property in which the estate has an interest," and therefore was not covered by § 506(d).
+
+   The United States District Court, without a supporting opinion, summarily affirmed the Bankruptcy Court's judgment of dismissal with prejudice. App. to Pet. for Cert. 12a.
+
+   The Court of Appeals for the Tenth Circuit, in its turn, also affirmed. In re Dewsnup, 908 F.2d 588 (1990). Starting from the "fundamental premise" of § 506(a) that a claim is subject to reduction in security only when the estate has an interest in the property, the court reasoned that because the estate had no interest in abandoned property, § 506(a) did not apply (nor, by implication, did § 506(d)). Id., at 590-591. The court then noted that a contrary result would be inconsistent with § 722 under which a debtor has a limited right to redeem certain personal property. Id., at 592.
+
+   Because the result reached by the Court of Appeals was at odds with that reached by the Third Circuit in Gaglia v. First Federal Savings & Loan Assn., 889 F.2d 1304, 13061311 (1989), and was expressly recognized by the Tenth Circuit as being in conflict, see 908 F. 2d, at 591, we granted certiorari. 498 U. S. 1081 (1991).
+
+
+   As we read their several submissions, the parties and their amici are not in agreement in their respective approaches to the problem of statutory interpretation that confronts us. Petitioner-debtor takes the position that §§ 506(a) and 506(d) are complementary and to be read together. Because, under § 506(a), a claim is secured only to the extent of the judicially determined value of the real property on which the lien is fixed, a debtor can void a lien on the property pursuant to § 506(d) to the extent the claim is no longer secured and thus is not "an allowed secured claim." In other words, § 506(a) bifurcates classes of claims allowed under § 502 into secured
+
+
+   claims and unsecured claims; any portion of an allowed claim deemed to be unsecured under § 506(a) is not an "allowed secured claim" within the lien-voiding scope of § 506(d). Petitioner argues that there is no exception for unsecured property abandoned by the trustee.
+
+   Petitioner's amicus argues that the plain language of § 506(d) dictates that the proper portion of an undersecured lien on property in a Chapter 7 case is void whether or not the property is abandoned by the trustee. It further argues that the rationale of the Court of Appeals would lead to evisceration of the debtor's right of redemption and the elimination of an undersecured creditor's ability to participate in the distribution of the estate's assets.
+
+   Respondents primarily assert that § 506(d) is not, as petitioner would have it, "rigidly tied" to § 506(a), Brief for Respondents 7. They argue that § 506(a) performs the function of classifying claims by true secured status at the time of distribution of the estate to ensure fairness to unsecured claimants. In contrast, the lien-voiding § 506(d) is directed to the time at which foreclosure is to take place, and, where the trustee has abandoned the property, no bankruptcy distributional purpose is served by voiding the lien.
+
+   In the alternative, respondents, joined by the United States as amicus curiae, argue more broadly that the words "allowed secured claim" in § 506(d) need not be read as an indivisible term of art defined by reference to § 506(a), which by its terms is not a definitional provision. Rather, the words should be read term-by-term to refer to any claim that is, first, allowed, and, second, secured. Because there is no question that the claim at issue here has been "allowed" pursuant to § 502 of the Code and is secured by a lien with recourse to the underlying collateral, it does not come within the scope of § 506(d), which voids only liens corresponding to claims that have not been allowed and secured. This reading of § 506(d), according to respondents and the United States, gives the provision the simple and sensible function
+
+
+   of voiding a lien whenever a claim secured by the lien itself has not been allowed. It ensures that the Code's determination not to allow the underlying claim against the debtor personally is given full effect by preventing its assertion against the debtor's property.2
+
+   Respondents point out that pre-Code bankruptcy law preserved liens like respondents' and that there is nothing in the Code's legislative history that reflects any intent to alter that law. Moreover, according to respondents, the "fresh start" policy cannot justify an impairment of respondents' property rights, for the fresh start does not extend to an in rem claim against property but is limited to a discharge of personal liability.
+
+
+   The foregoing recital of the contrasting positions of the respective parties and their amici demonstrates that § 506 of the Bankruptcy Code and its relationship to other provisions of that Code do embrace some ambiguities. See 3 Collier on Bankruptcy, ch. 506 and, in particular, , 506.07 (15th ed. 1991). Hypothetical applications that come to mind and those advanced at oral argument illustrate the difficulty of interpreting the statute in a single opinion that would apply to all possible fact situations. We therefore focus upon the
+
+   2 Respondents expressly stated in their brief and twice again at oral argument that they adopted as an alternative position the United States' interpretation of § 506(d). Brief for Respondents 40, n. 33; Tr. of Oral Arg. 14, 20. In dissent, however, JUSTICE SCALIA contends that respondents have not taken the same position as the United States on this issue. According to the dissent, the United States has taken the position that "a lien only 'secures' the claim in question up to the value of the security that is the object of the lien-and only up to that value is the lien subject to avoidance under § 506(d)." Post, at 424. In fact, the United States says:
+
+   "Under [petitioner's] reading, Section 506(d) would operate to reduce the creditor's lien to the value of the allowed secured claim described in Section 506(a). In our view, this reading makes no sense." Brief for United States as Amicus Curiae 5.
+
+
+   case before us and allow other facts to await their legal resolution on another day.
+
+   We conclude that respondents' alternative position, espoused also by the United States, although not without its difficulty, generally is the better of the several approaches. Therefore, we hold that § 506(d) does not allow petitioner to "strip down" respondents' lien, because respondents' claim is secured by a lien and has been fully allowed pursuant to § 502. Were we writing on a clean slate, we might be inclined to agree with petitioner that the words "allowed secured claim" must take the same meaning in § 506(d) as in § 506(a).3 But, given the ambiguity in the text, we are not convinced that Congress intended to depart from the preCode rule that liens pass through bankruptcy unaffected.
+
+   1. The practical effect of petitioner's argument is to freeze the creditor's secured interest at the judicially determined valuation. By this approach, the creditor would lose the benefit of any increase in the value of the property by the time of the foreclosure sale. The increase would accrue to the benefit of the debtor, a result some of the parties describe as a "windfall."
+
+   We think, however, that the creditor's lien stays with the real property until the foreclosure. That is what was bargained for by the mortgagor and the mortgagee. The voidness language sensibly applies only to the security aspect of the lien and then only to the real deficiency in the security. Any increase over the judicially determined valuation during bankruptcy rightly accrues to the benefit of the creditor, not to the benefit of the debtor and not to the benefit of other unsecured creditors whose claims have been allowed and who had nothing to do with the mortgagor-mortgagee bargain.
+
+   Such surely would be the result had the lienholder stayed aloof from the bankruptcy proceeding (subject, of course, to
+
+   3 Accordingly, we express no opinion as to whether the words "allowed secured claim" have different meaning in other provisions of the Bankruptcy Code.
+
+
+   the power of other persons or entities to pull him into the proceeding pursuant to § 501), and we see no reason why his acquiescence in that proceeding should cause him to experience a forfeiture of the kind the debtor proposes. It is true that his participation in the bankruptcy results in his having the benefit of an allowed unsecured claim as well as his allowed secured claim, but that does not strike us as proper recompense for what petitioner proposes by way of the elimination of the remainder of the lien.
+
+   2. This result appears to have been clearly established before the passage of the 1978 Act. Under the Bankruptcy Act of 1898, a lien on real property passed through bankruptcy unaffected. This Court recently acknowledged that this was so. See Farrey v. Sanderfoot, 500 U. S. 291, 297 (1991) ("Ordinarily, liens and other secured interests survive bankruptcy"); Johnson v. Home State Bank, 501 U. S. 78, 84 (1991) ("Rather, a bankruptcy discharge extinguishes only one mode of enforcing a claim-namely, an action against the debtor in personam-while leaving intact another-namely, an action against the debtor in rem").4
+
+   3. Apart from reorganization proceedings, see 11 U. S. C. §§ 616(1) and (10) (1976 ed.), no provision of the pre-Code
+
+   4 Section 67d of the 1898 Act, 30 Stat. 564, made this explicit:
+
+   "Liens given or accepted in good faith and not in contemplation of or in fraud upon this Act, and for a present consideration, which have been recorded according to law, if record thereof was necessary in order to impart notice, shall not be affected by this Act."
+
+   The Court, with respect to this statute, has said: "Section 67d ... declares that liens given or accepted in good faith and not in contemplation of or in fraud upon this act, shall not be affected by it." City of Richmond v. Bird, 249 U. S. 174, 177 (1919).
+
+   This precise statutory language did not appear in a reorganization of the section in the Chandler Act of 1938, 52 Stat. 840. A respected bankruptcy authority convincingly explained that this was done not to remove the rule of validity but because "the draftsmen of the 1938 Act desired generally to specify only what should be invalid." 4B Collier on Bankruptcy' 70.70, p. 771 (14th ed. 1978) (emphasis in original). The alteration had no substantive effect. Oppenheimer v. Oldham, 178 F.2d 386, 389 (CA5 1949).
+
+
+   statute permitted involuntary reduction of the amount of a creditor's lien for any reason other than payment on the debt. Our cases reveal the Court's concern about this. In Long v. Bullard, 117 U. S. 617, 620-621 (1886), the Court held that a discharge in bankruptcy does not release real estate of the debtor from the lien of a mortgage created by him before the bankruptcy. And in Louisville Joint Stock Land Bank v. Radford, 295 U. S. 555 (1935), the Court considered additions to the Bankruptcy Act effected by the Frazier-Lemke Act, 48 Stat. 1289. There the Court noted that the latter Act's "avowed object is to take from the mortgagee rights in the specific property held as security; and to that end 'to scale down the indebtedness' to the present value of the property." 295 U. S., at 594. The Court invalidated that statute under the Takings Clause. It further observed: "No instance has been found, except under the Frazier-Lemke Act, of either a statute or decision compelling the mortgagee
+   to relinquish the property to the mortgagor free of the lien unless the debt was paid in full." Id., at 579.
+
+   Congress must have enacted the Code with a full understanding of this practice. See H. R. Rep. No. 95-595, p. 357 (1977) ("Subsection (d) permits liens to pass through the bankruptcy case unaffected").
+
+   4. When Congress amends the bankruptcy laws, it does not write "on a clean slate." See Emil v. Hanley, 318 U. S. 515, 521 (1943). Furthermore, this Court has been reluctant to accept arguments that would interpret the Code, however vague the particular language under consideration might be, to effect a major change in pre-Code practice that is not the subject of at least some discussion in the legislative history. See United Savings Assn. of Texas v. Timbers of Inwood Forest Associates, Ltd., 484 U. S. 365, 380 (1988). See also Pennsylvania Dept. of Public Welfare v. Davenport, 495 U. S. 552, 563 (1990); United States v. Ron Pair Enterprises, Inc., 489 U. S. 235, 244-245 (1989). Of course, where the language is unambiguous, silence in the legislative history can-
+
+
+   not be controlling. But, given the ambiguity here, to attribute to Congress the intention to grant a debtor the broad new remedy against allowed claims to the extent that they become "unsecured" for purposes of § 506(a) without the new remedy's being mentioned somewhere in the Code itself or in the annals of Congress is not plausible, in our view, and is contrary to basic bankruptcy principles.
+
+   The judgment of the Court of Appeals is affirmed.
+
+   It is so ordered.
