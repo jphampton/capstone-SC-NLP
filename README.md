@@ -6,7 +6,8 @@ For this project, I took a look at U.S. Supreme Court (SCOTUS) opinions.  Specif
 
 Much of this project was motivated by work found in “Detecting multiple authorship of United States Supreme Court legal decisions using function words,” Rosenthal Yoon 2011, available here.
 
-All modeling can be found in the main notebook.  All work is done in python; I used sklearn’s implementation for tf-idf vectorizing and the Naive Bayes classifier, and gensim’s implementation of doc2vec.
+## Repo information
+All modeling can be found in the main notebook.  All work is done in python; I used sklearn’s implementation for tf-idf vectorizing and the Naive Bayes classifier, and gensim’s implementation of doc2vec.  The opinions are stored in the usscj directory.  You will need to provide the path to this folder in the "get_justice" function, as well as the first call to the "get_judges" function in the preprocessing section.
 
 ## Problem statements
 
@@ -29,8 +30,8 @@ An important note is that authorship predictions are done on a reduced dataset c
 
 ### Results
 The resulting auc-roc and accuracy scores compare favorably to Rosenthal’s results:
-
-
+<img src="https://github.com/jphampton/capstone-SC-NLP/blob/master/assets/auc-roc-heatmap.png" width="100%" height="100%">
+<img src="https://github.com/jphampton/capstone-SC-NLP/blob/master/assets/acc-heatmap.png" width="100%" height="100%">
 
 ### Takeaways
 The best models used either 2-grams or 3-grams, and generally performed better than function word models (as reported by Rosenthal), which suggests that the best linguistic features to predict authorship occur at the phrase level rather than the word level.  Function word models have the benefit of being more easily calculable (minutes rather than hours) and generalize more easily (identical features for each author), but they ignore context.  Despite being a bag-of-words model, by including n-grams there’s at least some role that phrase-level differences can enter the model.
@@ -49,7 +50,9 @@ The statistic computes the variance of the expected word counts given the indepe
 
 ### Results
 
-Since this is an unsupervised task, the scores can’t be explicitly verified.  Some common wisdom results are borne out--Scalia fares well, for instance.
+Since this is an unsupervised task, the scores can’t be explicitly verified.  Some common wisdom results are borne out--Scalia fares well, for instance.  The results here are somewhat complicated to interpret.  If the judge on the left had more variance than the judge below, the cell will be colored blue.  If the judge on the left had less variance than the judge below, the cell will be colored red.  If the variances were not statistically significantly different, the cell will be colored off-white.
+
+<img src="https://github.com/jphampton/capstone-SC-NLP/blob/master/assets/chisq-heatmap.png" width="100%" height="100%">
 
 
 ### Takeaways
@@ -65,9 +68,12 @@ Using gensim’s doc2vec model, I computed document vectors for each opinion.  D
 
 As a quick overview, doc2vec is an augmented version of word2vec.  The word2vec model uses a “sliding window” to extract features, and then assigns vectors to words, tuning the coefficients to best predict either a word from its context, or the context from the word.
 
+<img src="https://github.com/jphampton/capstone-SC-NLP/blob/master/assets/w2v.png" width="100%" height="100%">
 
 
 The doc2vec algorithm does one better by including a document feature, included in every epoch with the word/context features found in that document.
+
+<img src="https://github.com/jphampton/capstone-SC-NLP/blob/master/assets/d2v.png" width="100%" height="100%">
 
 
 In published work using doc2vec, frequently only 10-20 epochs were needed.  I saw no great gain by increasing the epochs to 30.  It was widely recommended to reduce the learning speed in each epoch, and to train epochs individually.  My implementation follows this recommendations.
