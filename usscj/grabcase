@@ -5,67 +5,15 @@ set -e
 # Figure out the case docket number from the url.
 # Adding LC_ALL=C for mac compatibility
 casenum=`echo $2 | LC_ALL=C sed -e "s/.*\/\([a-z0-9\-]*\)\/$/\1/"`
-#echo $mynum
 echo "LINK: $2"
 echo "CASENUM: $casenum"
 thefile=volume$1/rawcase$1-$casenum
 
 
 # Download volume $1, case url $2.
-# echo "checking url..."
-#curl -sI $2/case.html > jph.html
-#curl -sI $2/opinion.html > jph-opinion.html
-#curl -sI $2opinion3.html > jph-opinion3.html
-#if ! grep -q "Location:" ./jph.html
-#   then
-#     echo "case.html was GOOD"
-#     lynx -dump -nolist -width=99999 $2/case.html > $thefile
-# #elif ! grep -q "Location:" ./jph-opinion.html
-#   then
-#     echo "opinion.html was GOOD"
-#     lynx -dump -nolist -width=99999 $2/opinion.html > $thefile
-# #elif ! grep -q "Location:" ./jph-opinion3.html
-#   then
-#     echo "opinion3.html was GOOD"
-#     lynx -dump -nolist -width=99999 $2opinion3.html > $thefile
-# else
 echo "trying DEFAULT html"
 lynx -dump -nolist -width=99999 $2 > $thefile
-#
-# fi
-# rm -f ./jph.html
-# rm -f ./jph-opinion.html
-# rm -f ./jph-opinion3.html
-# then
-#   echo "CASE.HTML"
-#   lynx -dump -nolist -width=99999 $2/case.html > $thefile
-# elif ! curl -sI $2/opinion.html 2>&1 | grep "Location: "
-# then
-#   echo "OPINION.HTML"
-#   lynx -dump -nolist -width=99999 $2/opinion.html > $thefile
-# else
-#   echo "OPINION3.HTML"
-#   lynx -dump -nolist -width=99999 $2/opinion3.html > $thefile
-# fi
-#
-# lynx -dump -nolist file://`pwd`/tmp.html > $thefile
 
-# ORIGINAL SCRAPING LOGIC:
-# if test -n "$USECURL"
-# then
-#
-#   rm -f ./tmp.html
-#   echo "USING CURL!"
-#   curl -s $2/case.html > tmp.html
-#   lynx -dump -nolist file://`pwd`/tmp.html > $thefile
-#
-# else
-#   echo "No Curl"
-#   lynx -dump -nolist -width=99999 $2/case.html > $thefile
-# fi
-
-#TODO: check for second instance of topstring.  We're still grabbing summaries
-# when we should only be grabbing opinion text.
 curiamstring="^ *PER CURIAM\.$"
 # topstring1="J[Uu][Ss][Tt][Ii][Cc][Ee] .*delivered the opinion of the [Cc]ourt"
 topstring00="^ *announced the judgment of the [Cc]ourt"
